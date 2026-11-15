@@ -1,0 +1,11 @@
+{
+  "name": "基金研判 Skill-中信建投",
+  "installedAt": 1794685930061,
+  "source": "marketplace",
+  "version": "1.0.0",
+  "skillId": "skill_2099747144475000832",
+  "pay_mode": 0,
+  "description_zh": "支持根据基金代码查询基金名称、成立日期、基金公司、基金经理、基金分类、净值快照、基金规模、基金经理管理情况、持有人结构、投资范围、投资目标及参考指数等产品信息，并支持多只基金横向对比，帮助快速了解基金概况与投资定位。",
+  "description_en": "Supports querying product information by fund code, including fund name, inception date, fund company, fund manager, fund category, net asset value (NAV) snapshot, fund size, fund manager's management details, holder structure, investment scope, investment objective, benchmark index, and more. Also supports side-by-side comparison of multiple funds, helping users quickly understand fund overview and investment positioning.",
+  "iconSource": "letter:auto"
+}

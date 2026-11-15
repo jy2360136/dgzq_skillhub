@@ -1,0 +1,56 @@
+{
+  "institution": "国信证券",
+  "official_url": "https://www.guosen.com.cn/gs/xxskills/index.html",
+  "packages": [
+    {
+      "url": "https://www.guosen.com.cn/gs/xxskills/gs-economy-query.zip",
+      "zip": "gs-economy-query.zip",
+      "sha": "396F9D750D926D5916EE1F303BD84CF19B69753731E7B594CA66691E4B685300",
+      "folder": "gs-economy-query",
+      "name": "宏观经济数据"
+    },
+    {
+      "url": "https://www.guosen.com.cn/gs/xxskills/gs-stock-market-query.zip",
+      "zip": "gs-stock-market-query.zip",
+      "sha": "04F05F47279D21641A0869EF711019252D8180EAD760A77ED4CC3E5BB7C96B8A",
+      "folder": "gs-stock-market-query",
+      "name": "行情数据"
+    },
+    {
+      "url": "https://www.guosen.com.cn/gs/xxskills/gs-stock-financial-query.zip",
+      "zip": "gs-stock-financial-query.zip",
+      "sha": "7C80063F898BF350FA078CDE914766F4693BDBD3338DD60AD85531410A3BAF56",
+      "folder": "gs-stock-financial-query",
+      "name": "财务数据"
+    },
+    {
+      "url": "https://www.guosen.com.cn/gs/xxskills/gs-fund-compare.zip",
+      "zip": "gs-fund-compare.zip",
+      "sha": "9BC7E9CCE59EE507D81C7C6288E520B17F5C70A3D7BF24F63ABB4CD7E1A9F6CD",
+      "folder": "gs-fund-compare",
+      "name": "基金对比"
+    },
+    {
+      "url": "https://www.guosen.com.cn/gs/xxskills/gs-smart-stock-picking.zip",
+      "zip": "gs-smart-stock-picking.zip",
+      "sha": "750DE04EB0810D9D085268581215FB560B0307C56C51F80053D8EBD4DDB4F04F",
+      "folder": "gs-smart-stock-picking",
+      "name": "智能选股"
+    },
+    {
+      "url": "https://www.guosen.com.cn/gs/xxskills/gs-etf-filter.zip",
+      "zip": "gs-etf-filter.zip",
+      "sha": "0F8FEBE7F3F88F399949B444B4E9C181F470D55ACB469AD28DC486778F83F6B6",
+      "folder": "gs-etf-filter",
+      "name": "ETF筛选器"
+    }
+  ],
+  "retrieved_at": "2026-11-13",
+  "downloadable": 6,
+  "coming_soon": [
+    "个股对比",
+    "自动化盯盘"
+  ],
+  "product": "小信智慧助手 Skills 中心",
+  "cards_total": 8
+}

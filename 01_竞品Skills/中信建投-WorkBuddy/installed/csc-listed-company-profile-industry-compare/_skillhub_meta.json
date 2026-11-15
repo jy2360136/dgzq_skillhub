@@ -1,0 +1,11 @@
+{
+  "name": "个股研判 Skill-中信建投",
+  "installedAt": 1794685886413,
+  "source": "marketplace",
+  "version": "1.0.1",
+  "skillId": "skill_2099741641073876992",
+  "pay_mode": 0,
+  "description_zh": "本 Skill 支持查询上市公司概况、主营业务、管理层、联系方式、上市发行信息，以及公司在所属行业中的指标排名、行业均值和同业公司列表。本 Skill 适用于客户进行上市公司基本情况查询、业务背景了解、行业横向比较和同行业相对位置判断。所有内容仅基于接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。",
+  "description_en": "This Skill provides access to listed company profiles, principal business lines, management team, contact details, listing and issuance information, as well as industry‑relative metrics (ranking within the sector, industry averages, and a peer company list). It is designed for clients to conduct fundamental company checks, understand business contexts, perform cross‑sectional industry comparisons, and assess a company’s relative positioning within its industry. All content is compiled and interpreted solely based on data returned via the interface and does not constitute any investment advice, performance guarantee, or trading recommendation.",
+  "iconSource": "letter:auto"
+}

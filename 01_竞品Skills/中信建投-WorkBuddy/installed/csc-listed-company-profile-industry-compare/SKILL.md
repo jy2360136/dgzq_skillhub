@@ -1,0 +1,741 @@
+---
+name: csc-listed-company-profile-industry-compare
+description: 支持查询上市公司基本资料、主营业务、管理层和发行信息，以及股票在所属行业中的指标排名、行业均值和同业公司列表，适用于上市公司概况查询、业务背景了解和行业横向比较。
+display_name: 个股研判 Skill-中信建投
+display_name_en: China Securities - Stock Analysis Skill
+description_zh: 本 Skill 支持查询上市公司概况、主营业务、管理层、联系方式、上市发行信息，以及公司在所属行业中的指标排名、行业均值和同业公司列表。本 Skill 适用于客户进行上市公司基本情况查询、业务背景了解、行业横向比较和同行业相对位置判断。所有内容仅基于接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。
+description_en: This Skill provides access to listed company profiles, principal business lines, management team, contact details, listing and issuance information, as well as industry‑relative metrics (ranking within the sector, industry averages, and a peer company list). It is designed for clients to conduct fundamental company checks, understand business contexts, perform cross‑sectional industry comparisons, and assess a company’s relative positioning within its industry. All content is compiled and interpreted solely based on data returned via the interface and does not constitute any investment advice, performance guarantee, or trading recommendation.
+version: 1.0.1
+---
+
+# 中信建投证券个股研判 Skill（csc-listed-company-profile-industry-compare）
+
+本 Skill 基于中信建投证券上市公司基本资料和行业排名数据接口构建，支持查询上市公司概况、主营业务、管理层、联系方式、上市发行信息，以及公司在所属行业中的指标排名、行业均值和同业公司列表。
+
+本 Skill 适用于客户进行上市公司基本情况查询、业务背景了解、行业横向比较和同行业相对位置判断。所有内容仅基于当前接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。
+
+---
+
+## 一、核心能力范围
+
+本 Skill 支持以下两类能力：
+
+1. **上市公司基本资料查询**
+   - 支持查询证券简称、证券代码、公司名称、上市日期、成立日期、主营业务、经营范围、公司简介、所属地区、所属行业、联系方式、办公地址、注册地址、董秘、法人代表、董事长、总经理、员工人数、注册资本、经营性质、收入构成和发行信息等。
+
+2. **行业排名与同业对比**
+   - 支持查询公司在所属行业中的指标排名、行业均值和同业公司列表。
+   - 支持总收入、归母净利润、扣非净利润、总营收同比、归母净利润同比、扣非净利润同比、毛利率、净利率、资产负债率、总资产周转率、净资产收益率、总资产收益率、资本回报率、总市值、流通市值、市盈率、市销率、市现率、市净率等指标。
+
+> 本 Skill **不提供实时行情、历史行情、资金流向、盘口、北向资金、融资融券或单股财务指标详情查询**。涉及行情或财务报表明细的用户请求，应明确提示当前 Skill 不支持。
+
+---
+
+## 二、适用场景
+
+当用户提出以下类型问题时，可以使用本 Skill：
+
+1. 查询某家上市公司的基本情况、公司名称、上市日期、成立日期、所属地区和所属行业。
+2. 查询某家上市公司的主营业务、经营范围、公司简介、最赚钱业务和收入构成。
+3. 查询某家上市公司的董秘、法人代表、董事长、总经理、电话、邮箱、官网、办公地址和注册地址。
+4. 查询某家上市公司的员工人数、注册资本、经营性质等基础信息。
+5. 查询某家上市公司的发行价、发行市盈率、发行量、募集资金和网上中签率等发行信息。
+6. 查询某家公司在所属行业中的收入、利润、成长性、盈利能力、资本效率或估值指标排名。
+7. 查询某项指标的行业均值、目标公司排名及同业公司列表。
+8. 对比多家上市公司的基本资料或行业相对位置。
+9. 根据公司基本资料和行业排名，进行稳健的公司背景与同行业比较说明。
+
+### 股票代码要求
+
+本 Skill 的两个接口均要求传入**不带市场后缀的股票代码**，例如：
+
+```text
+601066
+000063
+300750
+```
+
+当用户仅提供上市公司名称时：
+
+1. 请应用"工具0：股票代码模糊查询"查询股票代码，如果有结果，需要询问用户该结果是否为用户要查询的目标，如果查询出错或者无结果，请告知用户，并询问是否采用联网查询股票代码，或请用户补充股票代码。
+2. 务必要询问用户，当前要查询的股票代码和名称是否为查询目标，没有结果时要请示用户是否联网获取股票代码，或请用户补充股票代码。
+3. 在用户允许时只可以通过联网获取股票代码，不得将其他第三方行情数据或未授权数据导入。
+
+---
+
+## 三、不适用场景
+
+以下场景不应直接使用本 Skill，或需要明确提示用户当前 Skill 不支持：
+
+1. 股票实时行情、最新价、涨跌幅、成交量、成交额、换手率、总市值等行情查询。
+2. 历史 K 线、分钟 K 线、指定日期区间行情查询。
+3. 全市场涨跌幅榜、成交额榜、换手率榜等行情排行查询。
+4. 行业或概念板块涨跌幅排行。
+5. ETF 持仓、ETF 关联股票、板块成分股或个股所属概念查询。
+6. 单只股票的营业收入、净利润、ROE、EPS、PE、PB 等详细数值查询；但可查询这些指标在行业内的排名、行业均值和同业相对位置。
+7. 财务报表详细数据查询，包括利润表、资产负债表、现金流量表等。
+8. 北向资金持股趋势、南向资金、主力增减仓、融资融券、逐笔成交、大单或超大单买卖明细。
+9. 五档买卖盘、盘口信息、最优买卖盘价格或数量等内部数据展示。
+10. 目标价、投资评级、买入/卖出/持有建议、未来股价预测或未来收益率预测。
+11. 接口未返回字段的自行推算、编造或通过外部联网补数。
+
+---
+
+## 四、用户可使用的示例提示词
+
+### 1. 上市公司基本资料
+
+```text
+查询中信建投证券的上市公司基本资料。
+```
+
+```text
+帮我看一下 601066 的主营业务、经营范围和公司简介。
+```
+
+```text
+中信建投证券的董秘、法人代表、董事长和总经理分别是谁？
+```
+
+```text
+查询 601066 的上市日期、注册资本、员工人数和所属行业。
+```
+
+```text
+帮我整理一下中信建投证券的办公地址、注册地址、电话、邮箱和官网。
+```
+
+```text
+查询 601066 的发行价、发行市盈率、发行量和募集资金。
+```
+
+```text
+帮我概括一下 601066 的收入构成和最赚钱业务。
+```
+
+### 2. 行业排名与同业对比
+
+```text
+查询中信建投证券在证券行业的市盈率排名。
+```
+
+```text
+帮我看一下 601066 的扣非净利润行业排名。
+```
+
+```text
+中信建投证券的 ROE 在同行里是什么水平？
+```
+
+```text
+查询 601066 的总收入在行业中的排名，并展示行业均值。
+```
+
+```text
+帮我比较一下 601066 的总市值、PE、PB 在证券行业中的位置。
+```
+
+```text
+查询 601066 在 2022-09-30 的归母净利润行业排名。
+```
+
+### 3. 综合说明
+
+```text
+结合公司基本资料和行业排名，简要介绍一下 601066。
+```
+
+```text
+从主营业务、所属行业和 ROE 行业排名角度，帮我介绍中信建投证券。
+```
+
+---
+
+## 五、服务地址与鉴权方式
+
+### 1. 接口网关地址
+
+本 Skill 使用以下网关接口：
+
+```text
+https://skillhub.csc108.com/api/skillhub/v1/info/f10/menu/basicInfo
+https://skillhub.csc108.com/api/skillhub/v1/info/f10/finance/industryRank
+```
+
+### 2. 鉴权方式
+
+所有接口均通过请求头中的 `X-API-Key` 进行鉴权，并须携带 `X-Calling-Skill-Id` 标识调用来源。
+
+请求头应包含：
+
+```text
+X-API-Key: <YOUR_API_KEY>
+X-Calling-Skill-Id: csc-listed-company-profile-industry-compare
+Content-Type: application/json
+```
+
+实际调用时请将 `<YOUR_API_KEY>` 替换为运行环境可用的 API Key；`X-Calling-Skill-Id` 固定为 `csc-listed-company-profile-industry-compare`。
+
+本Skill所有接口调用均依赖有效的 API Key。若运行环境中未配置 `<YOUR_API_KEY>`，应立即终止本次调用，不得尝试任何降级或绕过方式访问接口，并直接向用户返回以下引导提示：您好，需要 API Key 才能使用本功能。请前往 https://skillhub.csc108.com/finly/?channelCode=workBuddy 申请并配置 API Key 后重试。
+
+### 3. 密钥安全要求
+
+1. 不得在面向客户的输出中展示真实 API Key。
+2. 不得在日志、提示词、输出文件或分析正文中明文暴露真实 API Key。
+3. 示例命令统一使用 `<YOUR_API_KEY>` 占位符。
+4. 如运行环境需要临时替换 API Key，应仅在本地执行命令时替换，不应写入 Skill 文档正文。
+
+---
+
+## 六、工具说明与调用方式
+
+本 Skill 统一使用 `curl` 获取接口数据。
+
+优先使用 Linux/macOS 的 `curl` 命令；如运行环境为 Windows PowerShell，可使用 `curl.exe` 命令。
+
+### 工具 0：股票代码查询
+
+只有在用户输入为股票名称和拼音时使用，根据入参查询出结果后（如果有结果），必须要询问用户该结果是否为要查询的主体，然后再进行其他查询，要注意只有用户确认后，才可以继续下一步查询。
+
+#### 接口地址
+
+```text
+GET https://skillhub.csc108.com/api/skillhub/v1/market/hq/symbolmaster
+```
+
+#### 请求参数
+
+| 参数名 | 必填 | 类型 | 说明 | 示例 |
+|--------|------|------|------|------|
+| `symbolKey` | 否 | String | 股票模糊查询关键字，支持：股票代码、股票名称、股票拼音 | `600519`、`贵州茅台`、`gzmt` |
+| `type` |  是 | String | 查询类型 | `00` |
+| `pageNum` | 否 | Integer | 当前页码（type=00时生效，默认1） | `1` |
+| `pageSize` | 否 | Integer | 每页条数（type=00时生效，默认50） | `50` |
+
+#### type 查询类型对照
+
+| type | 含义 |
+|------|------|
+| `00` | 查全部（推荐，通用场景使用） |
+| `01` | 沪深A |
+| `02` | 沪深B |
+| `04` | 创业板 |
+| `05` | 港股 |
+| `08` | 风险警示股 |
+| `09` | 退市整理股 |
+| `10` | ETF |
+| `11` | 科创板 |
+| `12` | 股转(新三板) |
+| `13` | 北交所 |
+
+#### 核心返回字段
+
+| 字段 | 含义 | 用途 |
+|------|------|------|
+| `status` | 状态码，`OK`=成功，`400`=参数错误，`500`=系统错误 | 判断请求是否成功 |
+| `message` | 错误提示 | 失败时查看具体原因 |
+| `result` | 结果数组，可能包含多条匹配记录 | 遍历展示给用户选择 |
+| `result[].symbol` | 股票代码 | 核心字段，后续接口需要此参数 |
+| `result[].symbolName` | 股票名称 | 展示给用户确认 |
+| `result[].marketCd` | 市场代码 | 区分不同市场（如沪深、港股等） |
+| `result[].pinYin` | 股票拼音 | 辅助匹配 |
+
+#### 处理逻辑
+
+当用户输入股票名称、拼音或代码片段时，调用此接口查询；解析 `result` 数组，若为空则询问用户是否可以使用互联网查询股票代码，如果用户确认可以，再使用联网查询获取股票代码；若查出1条或多条，将 `symbolName + symbol` 展示给用户确认选择；待用户确认后，将确定的 `symbol` 和 `marketCd` 传递给后续需要股票代码和市场代码参数的接口。
+
+#### 错误处理
+
+`status=400` 时检查 `message` 字段（如"参数[type]不能为空"），修正参数后重试。
+若接口返回结果为空，则询问用户后，根据用户反馈来选择是否使用联网查询兜底获取股票代码。
+
+### 工具 1：上市公司基本资料查询
+
+#### 接口地址
+
+```text
+https://skillhub.csc108.com/api/skillhub/v1/info/f10/menu/basicInfo
+```
+
+#### 请求方法
+
+```text
+GET
+```
+
+#### 请求参数
+
+| 参数 | 类型 | 必填 | 说明 |
+|---|---|---:|---|
+| `stockCode` | string | 是 | 股票代码，不带市场后缀，例如 `601066` |
+
+#### Linux/macOS 调用示例
+
+```bash
+curl -X GET "https://skillhub.csc108.com/api/skillhub/v1/info/f10/menu/basicInfo?stockCode=601066" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: <YOUR_API_KEY>" \
+  -H "X-Calling-Skill-Id: csc-listed-company-profile-industry-compare"
+```
+
+#### Windows PowerShell 调用示例
+
+```powershell
+curl.exe -X GET "https://skillhub.csc108.com/api/skillhub/v1/info/f10/menu/basicInfo?stockCode=601066" `
+  -H "Content-Type: application/json" `
+  -H "X-API-Key: <YOUR_API_KEY>" `
+  -H "X-Calling-Skill-Id: csc-listed-company-profile-industry-compare"
+```
+
+#### 返回结果
+
+顶层字段：
+
+| 字段 | 含义 |
+|---|---|
+| `responseCode` | 响应码，`0` 通常表示请求成功 |
+| `responseDesc` | 响应信息 |
+| `basicInfo` | 上市公司基本资料对象 |
+
+`basicInfo` 关键字段：
+
+| 字段 | 含义 |
+|---|---|
+| `secName` | 证券简称 |
+| `secCode` | 证券编码 |
+| `origSecCode` | 原始证券代码 |
+| `listedDate` | 上市日期 |
+| `orgName` | 公司名称 |
+| `mainOprBus` | 主营业务 |
+| `bussScope` | 经营范围 |
+| `orgIntroduction` | 公司简介 |
+| `telephone` | 电话 |
+| `email` | 邮箱 |
+| `orgWebsite` | 公司网址 |
+| `officeAddress` | 办公地址 |
+| `regAddress` | 注册地址 |
+| `secretary` | 董秘 |
+| `legalRep` | 法人代表 |
+| `chairMan` | 董事长 |
+| `manager` | 总经理 |
+| `establishDate` | 成立日期 |
+| `staffNum` | 员工人数 |
+| `regAsset` | 注册资本，单位通常为万元 |
+| `corpNature` | 经营性质 |
+| `provinceName` | 所属地区 |
+| `industryName` | 所属行业 |
+| `profitBuss` | 最赚钱业务 |
+| `income` | 收入构成摘要 |
+| `operationIncome` | 收入构成明细 |
+| `issuance` | 发行量，单位通常为万股 |
+| `issuePrice` | 发行价 |
+| `issuePE` | 发行市盈率 |
+| `totalAmt` | 募集资金，单位通常为万元 |
+| `issueSucRate` | 网上中签率 |
+
+#### 使用与输出要求
+
+1. 应优先用通俗语言概括公司基本情况，不直接堆砌 JSON 字段。
+2. 对公司简介、经营范围、`income`、`operationIncome` 等长文本，应提炼摘要，突出主营业务、业务结构和重要经营信息。
+3. 用户需要完整资料时，可按“公司概况、主营业务、联系方式、管理层、上市发行信息”分组展示。
+4. 字段为空、为 `--`、`null` 或缺失时，应说明接口未返回有效值，不得补写。
+5. 资料型信息不等同于实时、动态或财务报表数据；不应据此作出投资建议。
+
+---
+
+### 工具 2：行业排名与同业对比查询
+
+#### 接口地址
+
+```text
+https://skillhub.csc108.com/api/skillhub/v1/info/f10/finance/industryRank
+```
+
+#### 请求方法
+
+```text
+GET
+```
+
+#### 请求参数
+
+| 参数 | 类型 | 必填 | 说明 |
+|---|---|---:|---|
+| `stockCode` | string | 是 | 股票代码，不带市场后缀，例如 `601066` |
+| `metric` | string | 是 | 排名指标，具体见下方指标映射表 |
+| `reportDate` | string | 否 | 仅报告期维度指标可传入，格式固定为 `YYYY-MM-dd`，例如 `2022-09-30` |
+
+#### Linux/macOS 调用示例
+
+查询日频市盈率排名：
+
+```bash
+curl -X GET "https://skillhub.csc108.com/api/skillhub/v1/info/f10/finance/industryRank?stockCode=601066&metric=pe" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: <YOUR_API_KEY>" \
+  -H "X-Calling-Skill-Id: csc-listed-company-profile-industry-compare"
+```
+
+查询指定报告期的扣非净利润排名：
+
+```bash
+curl -X GET "https://skillhub.csc108.com/api/skillhub/v1/info/f10/finance/industryRank?stockCode=601066&metric=kfjlr&reportDate=2022-09-30" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: <YOUR_API_KEY>" \
+  -H "X-Calling-Skill-Id: csc-listed-company-profile-industry-compare"
+```
+
+#### Windows PowerShell 调用示例
+
+```powershell
+curl.exe -X GET "https://skillhub.csc108.com/api/skillhub/v1/info/f10/finance/industryRank?stockCode=601066&metric=pe" `
+  -H "Content-Type: application/json" `
+  -H "X-API-Key: <YOUR_API_KEY>" `
+  -H "X-Calling-Skill-Id: csc-listed-company-profile-industry-compare"
+```
+
+带报告期参数：
+
+```powershell
+curl.exe -X GET "https://skillhub.csc108.com/api/skillhub/v1/info/f10/finance/industryRank?stockCode=601066&metric=kfjlr&reportDate=2022-09-30" `
+  -H "Content-Type: application/json" `
+  -H "X-API-Key: <YOUR_API_KEY>" `
+  -H "X-Calling-Skill-Id: csc-listed-company-profile-industry-compare"
+```
+
+#### 返回字段
+
+| 字段 | 说明 |
+|---|---|
+| `responseCode` | 返回码，`0` 通常表示成功 |
+| `responseDesc` | 描述信息 |
+| `reportDateList` | 可选报告期列表 |
+| `reportDate` | 当前数据报告日期 |
+| `industryName` | 行业名称 |
+| `industryRank` | 当前公司在行业内的排名，例如 `10/51` |
+| `industryAvg` | 行业均值 |
+| `industryList` | 行业排名列表 |
+| `industryList[].secName` | 证券名称 |
+| `industryList[].secCode` | 证券代码 |
+| `industryList[].rank` | 排名 |
+| `industryList[].value` | 对应指标数值 |
+| `industryList[].marketCode` | 市场编码 |
+| `industryList[].boardCode` | 板块编码 |
+
+#### metric 指标映射表
+
+以下 `metric` 枚举及口径已与接口负责人确认。
+
+##### 报告期维度指标
+
+| 用户说法 | `metric` | 说明 |
+|---|---|---|
+| 总收入 / 营业收入规模 | `zsr` | 总收入 |
+| 归母净利润 | `gmjlr` | 归母净利润 |
+| 扣非净利润 | `kfjlr` | 扣非净利润 |
+| 总营收同比 | `zystb` | 总营收同比 |
+| 归母净利润同比 | `gmjlrtb` | 归母净利同比 |
+| 扣非净利润同比 | `kfjlrtb` | 扣非净利同比 |
+| 毛利率 | `mll` | 毛利率 |
+| 净利率 | `jll` | 净利率 |
+| 资产负债率 | `zcfzl` | 资产负债率 |
+| 总资产周转率 | `zzczzl` | 总资产周转率 |
+| 净资产收益率 / ROE | `jzcsyl` | 净资产收益率 |
+| 总资产收益率 / ROA | `zzcsyl` | 总资产收益率 |
+| 资本回报率 | `zbhbl` | 资本回报率 |
+
+##### 每日更新指标
+
+| 用户说法 | `metric` | 说明 |
+|---|---|---|
+| 总市值 | `zsz` | 总市值 |
+| 流通市值 | `ltsz` | 流通市值 |
+| 市盈率 / PE | `pe` | 市盈率 |
+| 市销率 / PS | `ps` | 市销率 |
+| 市现率 / PCF | `pcf` | 市现率 |
+| 市净率 / PB | `pb` | 市净率 |
+
+#### marketCode 映射关系
+
+| `marketCode` | 含义 |
+|---|---|
+| `212001` | 上交所 |
+| `212004` | 银行间债券市场 |
+| `212005` | 代办转让市场 |
+| `212100` | 深交所 |
+| `212101` | 非上市公司房地产 |
+| `212200` | 港交所 |
+| `212300` | 北交所 |
+| `212999` | 其他 |
+
+#### boardCode 映射关系
+
+| `boardCode` | 含义 |
+|---|---|
+| `216001` | 主板 |
+| `216002` | 中小板 |
+| `216003` | 创业板 |
+| `216004` | 三板 |
+
+#### 输出限制与长结果处理
+
+接口负责人已确认：`industryList` 会一次返回所属行业的全部公司，不会截断。
+
+输出时应遵守以下规则：
+
+1. 默认展示前 30 条行业排名列表。
+2. 用户仅关心目标公司时，优先说明所属行业、查询指标、报告期或数据日期、行业排名、行业均值，并展示目标公司附近的同业公司。
+3. 用户明确要求完整列表时，可基于完整返回结果分批展示；不得一次性输出过长内容。
+4. 如需进一步分析长 JSON，先检查运行环境是否支持 Python：
+
+```bash
+python3 --version
+```
+
+或：
+
+```bash
+python --version
+```
+
+5. Python 可用时，可使用 python inline 对 JSON 进行解析、筛选、排序和摘要。
+6. Python 不可用时，应将接口结果保存或读取到上下文中，通过文本理解方式分批解读。
+
+#### Python inline 解析示例
+
+假设已将接口返回保存为 `industry_rank.json`，可使用：
+
+```bash
+python3 - <<'PY'
+import json
+
+with open('industry_rank.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+print('行业：', data.get('industryName'))
+print('报告期/日期：', data.get('reportDate'))
+print('目标公司行业排名：', data.get('industryRank'))
+print('行业均值：', data.get('industryAvg'))
+
+industry_list = data.get('industryList') or []
+for item in industry_list[:30]:
+    print(item.get('rank'), item.get('secName'), item.get('secCode'), item.get('value'))
+PY
+```
+
+---
+
+## 七、操作步骤
+
+### 步骤 1：明确用户查询目标
+
+先识别用户需要查询的是：
+
+1. 上市公司基本资料。
+2. 主营业务、管理层、联系方式或发行信息。
+3. 行业排名与同业对比。
+4. 多公司横向比较。
+5. 综合介绍。
+
+用户查询输入为公司名称或者拼音时，请按照"工具0：股票代码模糊查询"股票所属的要求进行操作；用户未明确查询维度时，可优先询问其更关注“公司基本情况”还是“行业排名”。如用户明确要求简要介绍，可组合调用基本资料接口和一项用户指定或默认的行业排名指标；但不得因“综合介绍”而调用不存在的行情、资金或财务报表接口。
+
+### 步骤 2：确认股票代码
+
+两个接口均使用不带市场后缀的股票代码。
+
+- 用户提供 `601066.sh` 时，转换为 `601066`。
+- 用户提供 `000063.sz` 时，转换为 `000063`。
+- 用户仅提供公司名称且无法准确识别代码时，请应用"工具0：股票代码模糊查询"查询股票代码，如果有结果，需要询问用户该结果是否为用户要查询的目标；如果查询出错或者无结果，请告知用户，是否采用联网查询股票代码，或请用户补充股票代码。
+
+### 步骤 3：选择行业排名指标
+
+当用户询问行业对比时：
+
+1. 识别用户关注的指标，并映射为对应 `metric`。
+2. 对报告期维度指标，如用户指定历史报告期，使用 `YYYY-MM-dd` 格式传入 `reportDate`。
+3. 对日频指标，如总市值、PE、PB、PS、PCF，不应擅自补传 `reportDate`。
+4. 用户未指定指标时，应优先询问其希望比较的维度；如确需默认选择，可选择与用户问题最相关的单一指标，并明确说明所选指标。
+
+### 步骤 4：使用 curl 获取接口数据
+
+所有接口均使用 curl 获取数据。
+
+不得改用联网搜索、第三方行情网站、外部金融数据源或自行编造数据。
+
+### 步骤 5：解析并面向客户输出
+
+1. 不直接堆砌 JSON 字段。
+2. 公司简介、经营范围、收入构成等长文本应摘要输出。
+3. 行业排名默认展示前 30 条；用户仅关心公司位置时，展示目标公司及附近同业即可。
+4. 多公司比较时，分别查询后再汇总展示。
+5. 输出结尾应加入风险提示。
+
+---
+
+## 八、结果解读要求
+
+### 1. 上市公司基本资料解读
+
+建议按以下维度组织：
+
+1. **公司概况**：证券简称、证券代码、公司名称、上市日期、成立日期、所属地区、所属行业。
+2. **主营业务**：主营业务、经营范围、公司简介。
+3. **联系方式**：电话、邮箱、公司网址、办公地址、注册地址。
+4. **管理层信息**：董秘、法人代表、董事长、总经理。
+5. **规模与性质**：员工人数、注册资本、经营性质。
+6. **业务结构**：最赚钱业务、收入构成。
+7. **发行信息**：发行量、发行价、发行市盈率、募集资金、网上中签率。
+
+示例表达：
+
+```text
+根据上市公司基本资料接口返回数据，XX（股票代码：XX）公司全称为 XX，于 XX 上市，成立于 XX，所属地区为 XX，所属行业为 XX。
+
+公司主营业务为 XX，经营范围主要包括 XX。公司简介可概括为：XX。
+
+管理层方面，董秘为 XX，法人代表为 XX，董事长为 XX，总经理为 XX。发行信息方面，发行价为 XX，发行市盈率为 XX，募集资金为 XX。
+```
+
+### 2. 行业排名与同业对比解读
+
+行业排名是本 Skill 的重点能力。输出时应优先说明：
+
+1. 股票所属行业。
+2. 查询指标及其口径。
+3. 报告期或数据日期。
+4. 目标公司行业排名。
+5. 行业均值。
+6. 行业内前 30 条排名列表，或目标公司附近的同业公司。
+
+建议表格结构：
+
+| 排名 | 股票名称 | 股票代码 | 指标值 |
+|---:|---|---|---:|
+| 1 | XX | XX | XX |
+| 2 | XX | XX | XX |
+| 3 | XX | XX | XX |
+
+示例表达：
+
+```text
+根据行业排名接口返回数据，XX（股票代码：XX）所属行业为 XX，当前查询指标为 XX，数据日期/报告期为 XX。该公司在行业内排名为 XX，行业均值为 XX。
+
+从行业相对位置看，该指标处于行业前列/中游/后段。单一指标不能完整反映公司整体情况，仍需结合公司业务结构、经营变化、行业环境和市场情况综合判断。
+```
+
+### 3. 多公司对比要求
+
+当用户要求比较多家公司时，应分别调用接口，再汇总展示。
+
+建议表格结构：
+
+| 股票代码 | 股票名称 | 所属行业 | 主营业务摘要 | 查询指标 | 行业排名 | 行业均值 |
+|---|---|---|---|---|---|---:|
+| XX | XX | XX | XX | XX | XX | XX |
+| XX | XX | XX | XX | XX | XX | XX |
+
+如果用户一次请求过多公司，建议最多处理前 10 家，并说明已按前 10 家进行查询。
+
+---
+
+## 九、异常处理规则
+
+### 1. 上市公司基本资料接口异常
+
+| 情况 | 处理方式 |
+|---|---|
+| `responseCode=0` | 请求成功，正常解析 `basicInfo` |
+| `basicInfo` 为空 | 提示暂未查询到该股票的上市公司基本资料 |
+| 字段为空、为 `--` 或 `null` | 说明接口未返回有效值，不得自行补齐 |
+| 股票代码格式错误 | 提示用户检查股票代码是否正确，例如 `601066` |
+
+### 2. 行业排名接口异常
+
+| 情况 | 处理方式 |
+|---|---|
+| `responseCode=0` | 请求成功，正常解析 |
+| `industryList` 为空 | 提示当前指标或股票暂无行业排名数据 |
+| `reportDateList` 有值 | 可提示用户从可用报告期中选择；传入 `reportDate` 时必须使用 `YYYY-MM-dd` 格式 |
+| `metric` 不支持 | 提示用户当前指标不在支持范围内，并列出可选指标 |
+
+### 3. 禁止外部兜底
+
+如果接口调用失败、无数据或字段缺失，直接说明数据获取失败或当前接口未返回该字段。不得尝试从联网搜索、第三方金融网站或其他未授权渠道补充数据。
+
+---
+
+## 十、合规与风险提示
+
+本 Skill 面向客户使用，所有输出必须遵守以下要求：
+
+1. 不得承诺收益。
+2. 不得直接给出买入、卖出、加仓、清仓、持有等交易指令。
+3. 不得使用“必涨”“稳赚”“确定性机会”“低风险高收益”等绝对化表述。
+4. 不得将单一公司资料或单一行业排名指标作为投资决策依据。
+5. 不得预测未来股价、目标价或未来收益率。
+6. 不得编造接口未返回的数据。
+7. 应提示客户结合自身风险承受能力、投资期限、资产配置需求和其他公开信息综合判断。
+
+建议在输出结尾包含以下风险提示：
+
+```text
+以上内容仅基于当前接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。市场有风险，投资需谨慎。
+```
+
+---
+
+## 十一、输出话术模板
+
+### 1. 上市公司基本资料模板
+
+```text
+根据上市公司基本资料接口返回数据，XX（股票代码：XX）公司全称为 XX，于 XX 上市，成立于 XX，所属地区为 XX，所属行业为 XX。
+
+公司主营业务为 XX，经营范围主要包括 XX。公司简介摘要如下：XX。
+
+管理层信息方面，董秘为 XX，法人代表为 XX，董事长为 XX，总经理为 XX。联系方式方面，公司电话为 XX，邮箱为 XX，官网为 XX。
+
+发行信息方面，发行价为 XX，发行市盈率为 XX，发行量为 XX，募集资金为 XX。
+
+以上内容仅基于当前接口返回的上市公司基本资料进行整理，不构成投资建议。
+```
+
+### 2. 行业排名与同业对比模板
+
+```text
+根据行业排名接口返回数据，XX（股票代码：XX）所属行业为 XX，当前查询指标为 XX，数据日期/报告期为 XX。
+
+该公司在行业内排名为 XX，行业均值为 XX。行业内排名前 30 的公司如下：
+
+| 排名 | 股票名称 | 股票代码 | 指标值 |
+|---:|---|---|---:|
+| 1 | XX | XX | XX |
+| 2 | XX | XX | XX |
+| 3 | XX | XX | XX |
+
+从行业相对位置看，该指标处于行业前列/中游/后段。单一指标不能完整反映公司整体情况，仍需结合公司基本面变化、行业环境和市场情况综合判断。
+```
+
+### 3. 综合介绍模板
+
+```text
+我根据当前可用接口，从上市公司基本资料和行业排名两个角度进行整理：
+
+1. 公司基本情况：XX。
+2. 主营业务与行业背景：XX。
+3. 行业对比：XX。
+
+综合来看，以上信息可帮助了解公司的业务背景和行业相对位置，但不能单独作为投资决策依据。市场有风险，投资需谨慎。
+```
+
+### 4. 数据为空模板
+
+```text
+暂未查询到该股票的相关数据。请您确认股票代码是否正确，例如 `601066` 或 `000063`。当前 Skill 仅支持上市公司基本资料与行业排名/同业对比查询，不支持实时行情或历史行情查询。
+```
+
+### 5. 接口异常模板
+
+```text
+接口返回异常，暂时无法获取该股票的相关数据。建议稍后重试，或检查股票代码、报告期和排名指标参数是否正确。
+```

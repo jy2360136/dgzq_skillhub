@@ -1,0 +1,11 @@
+{
+  "name": "财报透视 Skill-中信建投",
+  "installedAt": 1794685915824,
+  "source": "marketplace",
+  "version": "1.0.1",
+  "skillId": "skill_2099745226554703872",
+  "pay_mode": 0,
+  "description_zh": "本 Skill 支持A股上市公司利润表、资产负债表、现金流量表、财报公告信息及关键财务指标查询。适用于用户查询 A 股财务报表、营业收入、净利润、ROE、EPS、资产负债表、现金流量表、财报公告及关键财务指标等场景。所有内容仅基于接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。",
+  "description_en": "This Skill supports queries on income statements, balance sheets, cash flow statements, periodic filing announcements, and key financial metrics for A‑share listed companies. It is applicable to scenarios such as retrieving financial statements, operating revenue, net profit, ROE, EPS, balance sheet items, cash flow data, filing disclosures, and essential financial ratios. All content is compiled and interpreted solely based on data returned via the interface and does not constitute any investment advice, performance guarantee, or trading recommendation.",
+  "iconSource": "letter:auto"
+}

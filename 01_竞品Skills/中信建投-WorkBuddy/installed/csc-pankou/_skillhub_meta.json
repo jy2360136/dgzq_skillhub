@@ -1,0 +1,11 @@
+{
+  "name": "盘口异动 Skill-中信建投",
+  "installedAt": 1794685936864,
+  "source": "marketplace",
+  "version": "1.0.1",
+  "skillId": "skill_2112748068870000640",
+  "pay_mode": 0,
+  "description_zh": "本 Skill 支持查询沪深京市场个股的实时盘口异动数据，覆盖主力买入、主力卖出、加速拉升、加速下跌、高位回落、低位反弹、撑杆跳高、平台跳水、单笔冲涨、单笔冲跌、区间放量（涨/跌/平）、封涨停板、封跌停板、封涨大减、封跌大减、打开涨停、打开跌停、盘中强势、盘中弱势等 20 余种异动类型，并支持按查询条数、查询方向、异动类型、板块（融资融券、沪深300、创业板、科创50、中证500 等）和自选股列表进行筛选和翻页查询。本 Skill 适用于客户盯盘、个股异动追踪、主力资金动向观察、涨跌停与放量异动监控以及市场情绪研判。所有内容仅基于接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。",
+  "description_en": "This Skill provides access to real-time intraday anomaly (pankou) data for stocks listed on the Shanghai, Shenzhen, and Beijing exchanges. It covers more than twenty anomaly types, including major-order buying and selling, accelerating rallies and sell-offs, pullbacks from highs, rebounds from lows, pole-vault spikes and platform dives, single-order surges and plunges, volume expansion over an interval (up, down, or flat), sealed and opened limit-up and limit-down moves, and intraday strength or weakness. It is designed for clients to monitor the market, track individual stock anomalies, observe institutional money flows, watch limit-up, limit-down and volume anomalies, and gauge overall market sentiment. All content is compiled and interpreted solely based on data returned via the interface and does not constitute any investment advice, performance guarantee, or trading recommendation.",
+  "iconSource": "letter:auto"
+}

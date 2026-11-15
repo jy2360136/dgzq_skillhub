@@ -1,0 +1,11 @@
+{
+  "name": "智能选股Skill-中信建投",
+  "installedAt": 1794685908450,
+  "source": "marketplace",
+  "version": "1.0.0",
+  "skillId": "skill_2111997580993359872",
+  "pay_mode": 0,
+  "description_zh": "按涨跌幅、成交额、概念/行业板块、技术形态、财务档位等条件筛选 A 股。用户提到选股、筛选股票、推荐几只股票、按涨跌幅/成交额/板块/形态找股票时使用。未指定返回数量时，返回全部符合条件的结果；超过 10 只时对话展示前 10 条，并以 CSV 文件给出完整名单；结果过多超出数据网关上限时，提示用户增加收敛条件。不适用：非 A 股；只要买卖、仓位、目标价或收益预测、又没有可执行筛选条件。不回答买卖选择、买卖时点与仓位数量。用户说「推荐几只」仍属于选股触发，回复必须写成筛选结果。",
+  "description_en": "Screen A-shares by criteria such as price change, turnover, concept/industry sector, technical pattern, financial tier, etc. Use this when the user mentions stock selection, screening stocks, recommending a few stocks, or finding stocks by price change/turnover/sector/pattern. When the number of results to return is not specified, return all results that meet the criteria; if there are more than 10, show the first 10 in the conversation and provide the complete list as a CSV file; if there are too many results and they exceed the data gateway limit, prompt the user to add narrowing criteria. Not applicable to：non-A-shares; requests only for buying/selling, position sizing, target prices, or return forecasts without executable screening criteria. Do not answer questions about buy/sell choices, buy/sell timing, or position quantity. If the user says “recommend a few stocks,” it still counts as a stock-screening trigger, and the reply must be written as screening results.",
+  "iconSource": "letter:auto"
+}

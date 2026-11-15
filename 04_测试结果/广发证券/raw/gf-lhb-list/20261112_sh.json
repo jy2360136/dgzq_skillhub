@@ -1,0 +1,450 @@
+[
+  {
+    "clsPrc": 2.48,
+    "date": 20261112,
+    "dayChgRat": 10.2222,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "好当家",
+    "tnvVal": 325056693,
+    "tnvVol": 136225623,
+    "trdCode": "600467",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 2.81,
+    "date": 20261112,
+    "dayChgRat": 10.1961,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "吉视传媒",
+    "tnvVal": 1928930079,
+    "tnvVol": 706921661,
+    "trdCode": "601929",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 10.18,
+    "date": 20261112,
+    "dayChgRat": 10.0541,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      },
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "中重科技",
+    "tnvVal": 699806173,
+    "tnvVol": 70752973,
+    "trdCode": "603135",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 13.04,
+    "date": 20261112,
+    "dayChgRat": 10.0422,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      },
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "惠发食品",
+    "tnvVal": 691559478,
+    "tnvVol": 57796469.99999999,
+    "trdCode": "603536",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 13.16,
+    "date": 20261112,
+    "dayChgRat": 10.0334,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      },
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "天安新材",
+    "tnvVal": 238894772,
+    "tnvVol": 18180572,
+    "trdCode": "603725",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 32.11,
+    "date": 20261112,
+    "dayChgRat": 10.0034,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "金辰股份",
+    "tnvVal": 39675116,
+    "tnvVol": 1235600,
+    "trdCode": "603396",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 26.87,
+    "date": 20261112,
+    "dayChgRat": 9.9877,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "东方环宇",
+    "tnvVal": 426106937,
+    "tnvVol": 16679390,
+    "trdCode": "603706",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 8.59,
+    "date": 20261112,
+    "dayChgRat": 9.9872,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "福建水泥",
+    "tnvVal": 1688330803,
+    "tnvVol": 200476200,
+    "trdCode": "600802",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 7.18,
+    "date": 20261112,
+    "dayChgRat": 9.9541,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      },
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "大东方",
+    "tnvVal": 2292133972,
+    "tnvVol": 341692732,
+    "trdCode": "600327",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 5.06,
+    "date": 20261112,
+    "dayChgRat": 7.431,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "ST交昂",
+    "tnvVal": 71603924,
+    "tnvVol": 14441307,
+    "trdCode": "600530",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 10.43,
+    "date": 20261112,
+    "dayChgRat": 6.7554,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "返利科技",
+    "tnvVal": 457156083,
+    "tnvVol": 44959732,
+    "trdCode": "600228",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 45.29,
+    "date": 20261112,
+    "dayChgRat": 5.5711,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "赛腾股份",
+    "tnvVal": 1859767935,
+    "tnvVol": 41049540,
+    "trdCode": "603283",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 10.89,
+    "date": 20261112,
+    "dayChgRat": 2.7358,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "金健米业",
+    "tnvVal": 2468809300,
+    "tnvVol": 225975864,
+    "trdCode": "600127",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 3.09,
+    "date": 20261112,
+    "dayChgRat": -1.5924,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      },
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "文投控股",
+    "tnvVal": 3552944847,
+    "tnvVol": 1077893157,
+    "trdCode": "600715",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 16.03,
+    "date": 20261112,
+    "dayChgRat": -4.9229,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "风语筑",
+    "tnvVal": 2943402907,
+    "tnvVol": 172742961,
+    "trdCode": "603466",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 5.45,
+    "date": 20261112,
+    "dayChgRat": -6.1962,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "大晟文化",
+    "tnvVal": 1210335176,
+    "tnvVol": 208986122,
+    "trdCode": "600892",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 10.2,
+    "date": 20261112,
+    "dayChgRat": -8.8472,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "岱美股份",
+    "tnvVal": 692480529,
+    "tnvVol": 64545525,
+    "trdCode": "603730",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 47.13,
+    "date": 20261112,
+    "dayChgRat": -9.1557,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "德才股份",
+    "tnvVal": 721772854,
+    "tnvVol": 14665904,
+    "trdCode": "605287",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 46.85,
+    "date": 20261112,
+    "dayChgRat": -9.4861,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "杰克科技",
+    "tnvVal": 864481726,
+    "tnvVol": 17785826,
+    "trdCode": "603337",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 42.15,
+    "date": 20261112,
+    "dayChgRat": -9.9936,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "上海电影",
+    "tnvVal": 1952384227,
+    "tnvVol": 44689458,
+    "trdCode": "601595",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 56.73,
+    "date": 20261112,
+    "dayChgRat": -9.9952,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "福莱新材",
+    "tnvVal": 3000686267,
+    "tnvVol": 50305640,
+    "trdCode": "605488",
+    "updateTime": 1794473919
+  },
+  {
+    "clsPrc": 25.19,
+    "date": 20261112,
+    "dayChgRat": -10.0036,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SH",
+    "secuSht": "得邦照明",
+    "tnvVal": 250067235,
+    "tnvVol": 9730200,
+    "trdCode": "603303",
+    "updateTime": 1794473919
+  }
+]

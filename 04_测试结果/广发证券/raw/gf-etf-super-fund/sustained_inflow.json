@@ -1,0 +1,305 @@
+[
+  {
+    "capitalProfitMargin": 0.0009,
+    "details": [
+      {
+        "fndNetIn": 2433.8,
+        "tradeDate": "2026-11-12"
+      },
+      {
+        "fndNetIn": 1000.96,
+        "tradeDate": "2026-11-11"
+      },
+      {
+        "fndNetIn": 1928.48,
+        "tradeDate": "2026-11-10"
+      },
+      {
+        "fndNetIn": 2370.4,
+        "tradeDate": "2026-11-09"
+      },
+      {
+        "fndNetIn": 474.92,
+        "tradeDate": "2026-11-06"
+      },
+      {
+        "fndNetIn": 2359.04,
+        "tradeDate": "2026-11-05"
+      },
+      {
+        "fndNetIn": 742.62,
+        "tradeDate": "2026-11-04"
+      },
+      {
+        "fndNetIn": 232.56,
+        "tradeDate": "2026-11-03"
+      },
+      {
+        "fndNetIn": 2160.9,
+        "tradeDate": "2026-11-02"
+      },
+      {
+        "fndNetIn": 235.94,
+        "tradeDate": "2026-10-30"
+      },
+      {
+        "fndNetIn": -123.46,
+        "tradeDate": "2026-10-29"
+      },
+      {
+        "fndNetIn": 129.82,
+        "tradeDate": "2026-10-28"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-27"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-26"
+      },
+      {
+        "fndNetIn": 791.82,
+        "tradeDate": "2026-10-23"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-22"
+      },
+      {
+        "fndNetIn": 398.85,
+        "tradeDate": "2026-10-21"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-20"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-19"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-16"
+      },
+      {
+        "fndNetIn": 138.68,
+        "tradeDate": "2026-10-15"
+      },
+      {
+        "fndNetIn": -285.7,
+        "tradeDate": "2026-10-14"
+      }
+    ],
+    "estimatedFundingCost": 1.218,
+    "etfcode": "159373",
+    "etfname": "嘉实创业板50ETF",
+    "fndNet": 8208.56,
+    "fndNetPercent": 100,
+    "mktCd": "SZ",
+    "tradeDate": "2026-11-12",
+    "type": "持续流入"
+  },
+  {
+    "capitalProfitMargin": 0.0061,
+    "details": [
+      {
+        "fndNetIn": 1283.4,
+        "tradeDate": "2026-11-12"
+      },
+      {
+        "fndNetIn": 528.36,
+        "tradeDate": "2026-11-11"
+      },
+      {
+        "fndNetIn": 520.48,
+        "tradeDate": "2026-11-10"
+      },
+      {
+        "fndNetIn": 1782.06,
+        "tradeDate": "2026-11-09"
+      },
+      {
+        "fndNetIn": 255.12,
+        "tradeDate": "2026-11-06"
+      },
+      {
+        "fndNetIn": 261.78,
+        "tradeDate": "2026-11-05"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-11-04"
+      },
+      {
+        "fndNetIn": -242.26,
+        "tradeDate": "2026-11-03"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-11-02"
+      },
+      {
+        "fndNetIn": 238.44,
+        "tradeDate": "2026-10-30"
+      },
+      {
+        "fndNetIn": -248.46,
+        "tradeDate": "2026-10-29"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-28"
+      },
+      {
+        "fndNetIn": -249.88,
+        "tradeDate": "2026-10-27"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-26"
+      },
+      {
+        "fndNetIn": 795.72,
+        "tradeDate": "2026-10-23"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-22"
+      },
+      {
+        "fndNetIn": 264.94,
+        "tradeDate": "2026-10-21"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-20"
+      },
+      {
+        "fndNetIn": 517.08,
+        "tradeDate": "2026-10-19"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-16"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-15"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-14"
+      }
+    ],
+    "estimatedFundingCost": 1.2912,
+    "etfcode": "159573",
+    "etfname": "华夏创业板200ETF",
+    "fndNet": 4369.42,
+    "fndNetPercent": 100,
+    "mktCd": "SZ",
+    "tradeDate": "2026-11-12",
+    "type": "持续流入"
+  },
+  {
+    "capitalProfitMargin": -0.0103,
+    "details": [
+      {
+        "fndNetIn": 2026.35,
+        "tradeDate": "2026-11-12"
+      },
+      {
+        "fndNetIn": 433.76,
+        "tradeDate": "2026-11-11"
+      },
+      {
+        "fndNetIn": 700.44,
+        "tradeDate": "2026-11-10"
+      },
+      {
+        "fndNetIn": 693.16,
+        "tradeDate": "2026-11-09"
+      },
+      {
+        "fndNetIn": 425.12,
+        "tradeDate": "2026-11-06"
+      },
+      {
+        "fndNetIn": 271.5,
+        "tradeDate": "2026-11-05"
+      },
+      {
+        "fndNetIn": 267.225,
+        "tradeDate": "2026-11-04"
+      },
+      {
+        "fndNetIn": -518.15,
+        "tradeDate": "2026-11-03"
+      },
+      {
+        "fndNetIn": 2275.24,
+        "tradeDate": "2026-11-02"
+      },
+      {
+        "fndNetIn": -152.715,
+        "tradeDate": "2026-10-30"
+      },
+      {
+        "fndNetIn": -104.61,
+        "tradeDate": "2026-10-29"
+      },
+      {
+        "fndNetIn": 160.695,
+        "tradeDate": "2026-10-28"
+      },
+      {
+        "fndNetIn": -316.29,
+        "tradeDate": "2026-10-27"
+      },
+      {
+        "fndNetIn": -214.82,
+        "tradeDate": "2026-10-26"
+      },
+      {
+        "fndNetIn": -328.23,
+        "tradeDate": "2026-10-23"
+      },
+      {
+        "fndNetIn": 0,
+        "tradeDate": "2026-10-22"
+      },
+      {
+        "fndNetIn": 161.325,
+        "tradeDate": "2026-10-21"
+      },
+      {
+        "fndNetIn": -484.695,
+        "tradeDate": "2026-10-20"
+      },
+      {
+        "fndNetIn": -319.17,
+        "tradeDate": "2026-10-19"
+      },
+      {
+        "fndNetIn": -158.85,
+        "tradeDate": "2026-10-16"
+      },
+      {
+        "fndNetIn": -316.23,
+        "tradeDate": "2026-10-15"
+      },
+      {
+        "fndNetIn": 217.16,
+        "tradeDate": "2026-10-14"
+      }
+    ],
+    "estimatedFundingCost": 1.0555,
+    "etfcode": "159713",
+    "etfname": "富国中证稀土产业ETF",
+    "fndNet": 4278.83,
+    "fndNetPercent": 100,
+    "mktCd": "SZ",
+    "tradeDate": "2026-11-12",
+    "type": "持续流入"
+  }
+]

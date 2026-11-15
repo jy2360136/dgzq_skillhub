@@ -1,0 +1,132 @@
+{
+  "generated_at": "2026-11-13",
+  "source": "广发证券 GF Skills API; 东方财富妙想 MCP",
+  "skills": [
+    {
+      "name": "gf-lhb-list",
+      "case": "20261112_sh_sz",
+      "gf_raw": [
+        "04_测试结果/广发证券/raw/gf-lhb-list/20261112_sh.json",
+        "04_测试结果/广发证券/raw/gf-lhb-list/20261112_sz.json"
+      ],
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-lhb-list/20261112.md",
+      "mx_raw": "04_测试结果/东方财富妙想/raw/gf-lhb-list/news_search.normalized.json",
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-lhb-list/news_summary.md",
+      "status": "GF success; MX only news",
+      "native_coverage_pct": 0,
+      "with_local_compute_pct": 0
+    },
+    {
+      "name": "gf-stock-f10",
+      "case": "600519_SH",
+      "gf_raw": "04_测试结果/广发证券/raw/gf-stock-f10/600519_SH.json",
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-stock-f10/600519_SH.md",
+      "mx_raw": "04_测试结果/东方财富妙想/raw/gf-stock-f10/combined.normalized.json",
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-stock-f10/600519_SH.md",
+      "status": "near identical",
+      "native_coverage_pct": 100,
+      "with_local_compute_pct": 100
+    },
+    {
+      "name": "gf-stock-valuation",
+      "case": "valuation_and_compare",
+      "gf_raw": [
+        "04_测试结果/广发证券/raw/gf-stock-valuation/valuation_000776_600000.json",
+        "04_测试结果/广发证券/raw/gf-stock-valuation/compare_000783_000776_2025q3.json"
+      ],
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-stock-valuation/valuation_and_compare.md",
+      "mx_raw": [
+        "04_测试结果/东方财富妙想/raw/gf-stock-valuation/valuation.normalized.json",
+        "04_测试结果/东方财富妙想/raw/gf-stock-valuation/percentile.normalized.json",
+        "04_测试结果/东方财富妙想/raw/gf-stock-valuation/compare.normalized.json"
+      ],
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-stock-valuation/valuation_and_compare.md",
+      "status": "near identical with minor metric differences",
+      "native_coverage_pct": 86,
+      "with_local_compute_pct": 100
+    },
+    {
+      "name": "gf-etf-rank",
+      "case": "gainers_top10",
+      "gf_raw": "04_测试结果/广发证券/raw/gf-etf-rank/gainers_top10.json",
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-etf-rank/gainers_top10.md",
+      "mx_raw": "04_测试结果/东方财富妙想/raw/gf-etf-rank/gainers_top10.normalized.json",
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-etf-rank/gainers_top10.md",
+      "status": "same output form; different universe/order",
+      "native_coverage_pct": 83,
+      "with_local_compute_pct": 83
+    },
+    {
+      "name": "gf-etf-search",
+      "case": "industry_roc1m_5pct",
+      "gf_raw": "04_测试结果/广发证券/raw/gf-etf-search/industry_roc1m_5pct.json",
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-etf-search/industry_roc1m_5pct.md",
+      "mx_raw": "04_测试结果/东方财富妙想/raw/gf-etf-search/industry_roc1m_5pct.normalized.json",
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-etf-search/industry_roc1m_5pct.md",
+      "status": "same capability; different result set; advanced filters need local compute",
+      "native_coverage_pct": 68,
+      "with_local_compute_pct": 88
+    },
+    {
+      "name": "gf-etf-super-fund",
+      "case": "sustained_inflow",
+      "gf_raw": "04_测试结果/广发证券/raw/gf-etf-super-fund/sustained_inflow.json",
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-etf-super-fund/sustained_inflow.md",
+      "mx_raw": "04_测试结果/东方财富妙想/raw/gf-etf-super-fund/net_subscription_top10.normalized.json",
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-etf-super-fund/net_subscription_top10.md",
+      "status": "MX only share-change ranking",
+      "native_coverage_pct": 0,
+      "with_local_compute_pct": 25
+    },
+    {
+      "name": "gf-fund-detail",
+      "case": "010068",
+      "gf_raw": "04_测试结果/广发证券/raw/gf-fund-detail/010068.json",
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-fund-detail/010068.md",
+      "mx_raw": "04_测试结果/东方财富妙想/raw/gf-fund-detail/010068.normalized.json",
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-fund-detail/010068.md",
+      "status": "core fields available; asset scale definition differs",
+      "native_coverage_pct": 80,
+      "with_local_compute_pct": 87
+    },
+    {
+      "name": "gf-fund-invest",
+      "case": "001643_monthly_1000_20200101_20261112",
+      "gf_raw": "04_测试结果/广发证券/raw/gf-fund-invest/001643_monthly_1000_20200101_20261112.json",
+      "gf_final": "04_测试结果/广发证券/final_answers/gf-fund-invest/001643_monthly_1000_20200101_20261112.md",
+      "mx_raw": [
+        "04_测试结果/东方财富妙想/raw/gf-fund-invest/001643_daily_nav_2020_2022.normalized.json",
+        "04_测试结果/东方财富妙想/raw/gf-fund-invest/001643_daily_nav_2023_2025.normalized.json",
+        "04_测试结果/东方财富妙想/raw/gf-fund-invest/001643_daily_nav_2026.normalized.json"
+      ],
+      "mx_final": "04_测试结果/东方财富妙想/final_answers/gf-fund-invest/001643_monthly_1000_20200101_20261112.md",
+      "status": "near identical after local DCA calculation",
+      "native_coverage_pct": 17,
+      "with_local_compute_pct": 100
+    }
+  ],
+  "audit_20261115": {
+    "audit_status": "raw evidence valid; historical coverage percentages are local sample judgments, not verified parity rates",
+    "raw_validation": {
+      "gf_json_files": 10,
+      "gf_json_parse_ok": 10,
+      "gf_stderr_nonempty": 0
+    },
+    "smoke_test": {
+      "date": "2026-11-15",
+      "tool": "mx_ashare_finance_data",
+      "query": "贵州茅台最新价、涨跌幅和市盈率",
+      "status": "success",
+      "raw": "04_测试结果/东方财富妙想/raw/mx-smoke-20261115.json"
+    },
+    "etf_benchmark": {
+      "cases": 200,
+      "protocol_success": 200,
+      "mx_adopted": 62,
+      "mx_rejected": 79,
+      "empty": 59,
+      "raw": "04_测试结果/benchmarks/mx_benchmark_raw_20261115.jsonl",
+      "stats": "04_测试结果/benchmarks/mx_benchmark_category_stats_20261115.csv"
+    }
+  }
+}

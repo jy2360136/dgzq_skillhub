@@ -1,0 +1,11 @@
+{
+  "name": "ETF 筛选 Skill-中信建投",
+  "installedAt": 1794685824664,
+  "source": "marketplace",
+  "version": "1.0.4",
+  "skillId": "skill_2100162800769396736",
+  "pay_mode": 0,
+  "description_zh": "本 Skill 聚焦 ETF 产品及其跟踪指数的信息查询与分析，帮助用户快速获取 ETF、跟踪指数及相关指数信息。支持根据 ETF 名称或代码查询其跟踪指数；根据指数名称、指数代码或指数市场反向查找跟踪该指数的 ETF；根据行业或概念主题查询板块最高占比 ETF；查询指数 PE、PB、PE/PB 百分位、ROE、股息率、近一年涨跌幅、近一年最大回撤指标等；所有内容仅基于接口返回的数据进行整理和解释，不构成任何投资建议、收益承诺或买卖依据。",
+  "description_en": "This Skill focuses on information retrieval and analysis of ETF  and their underlying indices, enabling users to quickly access ETF, tracked index, and related index data. It supports: querying the tracked index by ETF name or ticker; reverse‑searching ETFs that track a given index by index name, index code, or index market; identifying the ETF with the highest sector weighting by industry or thematic concept; and retrieving key metrics for an index, including P/E, P/B, P/E and P/B percentile ranks, ROE, dividend yield, 1‑year price return, and 1‑year maximum drawdown. All content is compiled and interpreted solely based on data returned via the interface and does not constitute any investment advice, performance guarantee, or trading recommendation.",
+  "iconSource": "letter:auto"
+}

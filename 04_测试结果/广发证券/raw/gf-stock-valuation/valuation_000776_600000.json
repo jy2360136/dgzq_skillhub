@@ -1,0 +1,36 @@
+[
+  {
+    "basic": {
+      "list_date": "1997-06-11",
+      "total_marketcap": 1452.29
+    },
+    "stock_code": "SZ000776",
+    "stock_name": "广发证券",
+    "valuation": {
+      "pb": 1.0437,
+      "pb_avg": 1.242,
+      "pb_percent": 6.21,
+      "pettm": 7.7271,
+      "pettm_avg": 64.0797,
+      "pettm_percent": 6.7,
+      "trade_date": "2026-11-12"
+    }
+  },
+  {
+    "basic": {
+      "list_date": "1999-11-10",
+      "total_marketcap": 3400.53
+    },
+    "stock_code": "SH600000",
+    "stock_name": "浦发银行",
+    "valuation": {
+      "pb": 0.4478,
+      "pb_avg": 0.6088,
+      "pb_percent": 12.27,
+      "pettm": 6.5685,
+      "pettm_avg": 6.3993,
+      "pettm_percent": 42.93,
+      "trade_date": "2026-11-12"
+    }
+  }
+]

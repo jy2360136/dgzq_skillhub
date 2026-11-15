@@ -1,0 +1,577 @@
+[
+  {
+    "clsPrc": 5.23,
+    "date": 20261112,
+    "dayChgRat": 10.1053,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "日上集团",
+    "tnvVal": 888425100,
+    "tnvVol": 175186176,
+    "trdCode": "002593",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 6.66,
+    "date": 20261112,
+    "dayChgRat": 10.0826,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "澳洋健康",
+    "tnvVal": 1461034681,
+    "tnvVol": 223943470.00000003,
+    "trdCode": "002172",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 7.23,
+    "date": 20261112,
+    "dayChgRat": 10.0457,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      },
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "北纬科技",
+    "tnvVal": 954756774,
+    "tnvVol": 135344086,
+    "trdCode": "002148",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 2.63,
+    "date": 20261112,
+    "dayChgRat": 10.0418,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "中捷资源",
+    "tnvVal": 257359175,
+    "tnvVol": 103210848,
+    "trdCode": "002021",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 18.32,
+    "date": 20261112,
+    "dayChgRat": 10.03,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      },
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      },
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "皇台酒业",
+    "tnvVal": 1168199551,
+    "tnvVol": 67777963,
+    "trdCode": "000995",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 5.16,
+    "date": 20261112,
+    "dayChgRat": 10.0213,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "东方海洋",
+    "tnvVal": 2851430017,
+    "tnvVol": 555586576,
+    "trdCode": "002086",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 25.66,
+    "date": 20261112,
+    "dayChgRat": 9.9871,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "亚玛顿",
+    "tnvVal": 38862070,
+    "tnvVol": 1514500,
+    "trdCode": "002623",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 11.68,
+    "date": 20261112,
+    "dayChgRat": 9.9812,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 3,
+        "rsnSht": "日涨幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "百洋股份",
+    "tnvVal": 1412431436,
+    "tnvVol": 122052074,
+    "trdCode": "002696",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 11,
+    "date": 20261112,
+    "dayChgRat": 7.7375,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "英力特",
+    "tnvVal": 516247767,
+    "tnvVol": 47359748,
+    "trdCode": "000635",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 65.52,
+    "date": 20261112,
+    "dayChgRat": 7.4451,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 43,
+        "rsnSht": "有价格涨跌幅限制的日换手率达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "万邦医药",
+    "tnvVal": 1084462793,
+    "tnvVol": 16927620,
+    "trdCode": "301520",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 30.8,
+    "date": 20261112,
+    "dayChgRat": 7.2797,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 43,
+        "rsnSht": "有价格涨跌幅限制的日换手率达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "粤芯半导体",
+    "tnvVal": 2830179708,
+    "tnvVol": 93288367,
+    "trdCode": "301660",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 33.1,
+    "date": 20261112,
+    "dayChgRat": 7.1197,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 44,
+        "rsnSht": "连续3个交易日内收盘价格涨幅较基准指数偏离值累计达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "辰奕智能",
+    "tnvVal": 263347099,
+    "tnvVol": 8147275.999999999,
+    "trdCode": "301578",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 21.94,
+    "date": 20261112,
+    "dayChgRat": 3.5394,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      },
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 7,
+        "rsnSht": "连续三个交易日内,涨幅偏离值累计达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "襄阳轴承",
+    "tnvVal": 3953522535,
+    "tnvVol": 174074282,
+    "trdCode": "000678",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 10.04,
+    "date": 20261112,
+    "dayChgRat": 3.5052,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "慈文传媒",
+    "tnvVal": 1885357336,
+    "tnvVol": 187907673,
+    "trdCode": "002343",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 3.03,
+    "date": 20261112,
+    "dayChgRat": 2.7119,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "东方新能",
+    "tnvVal": 2575450279,
+    "tnvVol": 849543840,
+    "trdCode": "002310",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 42.36,
+    "date": 20261112,
+    "dayChgRat": 2.2694,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "皇冠新材",
+    "tnvVal": 754011029,
+    "tnvVol": 17849206,
+    "trdCode": "001381",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 55.8,
+    "date": 20261112,
+    "dayChgRat": 0,
+    "items": [
+      {
+        "beginDate": 20261109,
+        "endDate": 20261112,
+        "rsnCode": 44,
+        "rsnSht": "连续3个交易日内收盘价格涨幅较基准指数偏离值累计达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "科瑞思",
+    "tnvVal": 307740471,
+    "tnvVol": 5587733,
+    "trdCode": "301314",
+    "updateTime": 1794472114
+  },
+  {
+    "clsPrc": 10.95,
+    "date": 20261112,
+    "dayChgRat": -2.9255,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 6,
+        "rsnSht": "日换手率达20%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "冰山冷热",
+    "tnvVal": 2745429753,
+    "tnvVol": 243332541,
+    "trdCode": "000530",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 33.57,
+    "date": 20261112,
+    "dayChgRat": -4.9816,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 43,
+        "rsnSht": "有价格涨跌幅限制的日换手率达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "贝特利",
+    "tnvVal": 729406816,
+    "tnvVol": 20946331,
+    "trdCode": "301697",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 9.61,
+    "date": 20261112,
+    "dayChgRat": -5.4134,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "日海智能",
+    "tnvVal": 1175854810,
+    "tnvVol": 108996306,
+    "trdCode": "002313",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 3.6,
+    "date": 20261112,
+    "dayChgRat": -6.0052,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 5,
+        "rsnSht": "日振幅值达15%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "凯撒文化",
+    "tnvVal": 956066220,
+    "tnvVol": 248250409,
+    "trdCode": "002425",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 0.21,
+    "date": 20261112,
+    "dayChgRat": -8.6957,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 35,
+        "rsnSht": "退市整理证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "萃华退",
+    "tnvVal": 4898610,
+    "tnvVol": 22159600,
+    "trdCode": "002731",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 63.32,
+    "date": 20261112,
+    "dayChgRat": -9.1926,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "智微智能",
+    "tnvVal": 1689992638,
+    "tnvVol": 25723259,
+    "trdCode": "001339",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 22.49,
+    "date": 20261112,
+    "dayChgRat": -9.3145,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "山金国际",
+    "tnvVal": 1669447162,
+    "tnvVol": 71918339,
+    "trdCode": "000975",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 3.97,
+    "date": 20261112,
+    "dayChgRat": -9.7727,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "常铝股份",
+    "tnvVal": 612527643,
+    "tnvVol": 148847063,
+    "trdCode": "002160",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 9.85,
+    "date": 20261112,
+    "dayChgRat": -9.9634,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "煌上煌",
+    "tnvVal": 327378020,
+    "tnvVol": 31942753.999999996,
+    "trdCode": "002695",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 90.45,
+    "date": 20261112,
+    "dayChgRat": -10,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 4,
+        "rsnSht": "日跌幅偏离值达7%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "中坚科技",
+    "tnvVal": 1056913554,
+    "tnvVol": 11236695,
+    "trdCode": "002779",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 43.88,
+    "date": 20261112,
+    "dayChgRat": -10.3758,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 43,
+        "rsnSht": "有价格涨跌幅限制的日换手率达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "果麦文化",
+    "tnvVal": 1617247557,
+    "tnvVol": 35640339,
+    "trdCode": "301052",
+    "updateTime": 1794471812
+  },
+  {
+    "clsPrc": 69.86,
+    "date": 20261112,
+    "dayChgRat": -12.6422,
+    "items": [
+      {
+        "beginDate": 20261111,
+        "endDate": 20261112,
+        "rsnCode": 43,
+        "rsnSht": "有价格涨跌幅限制的日换手率达到30%的证券"
+      }
+    ],
+    "market": "SZ",
+    "secuSht": "凡拓数创",
+    "tnvVal": 2257075253,
+    "tnvVol": 30281040.999999996,
+    "trdCode": "301313",
+    "updateTime": 1794471812
+  }
+]

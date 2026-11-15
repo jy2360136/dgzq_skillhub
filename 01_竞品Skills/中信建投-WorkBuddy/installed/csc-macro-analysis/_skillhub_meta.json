@@ -1,0 +1,11 @@
+{
+  "name": "大盘分析Skill-中信建投",
+  "installedAt": 1794685921970,
+  "source": "marketplace",
+  "version": "1.0.0",
+  "skillId": "skill_2111997560749965312",
+  "pay_mode": 0,
+  "description_zh": "对A股做市场风格、市场主线和事件催化分析。比较风格相对强弱与轮动证据，区分热点、强势主题和主线候选，梳理已发生事件的传导、市场验证和失效条件。适用于盘前、盘中、盘后的风格、主线与催化问题。触发词：市场风格、风格切换、大小盘、成长价值、红利风格、市场主线、主线、热点板块、板块轮动、概念板块、事件催化、政策影响。不做大盘研判，不输出市场强弱、情绪阶段、指数方向、收益预测或交易指令。合规边界见 references/compliance-boundary.md。",
+  "description_en": "Analyzes A-share market style, market main themes, and event catalysts. Compares relative style strength and rotation evidence, separates hot topics, strong themes, and main-theme candidates, and traces transmission, market verification, and invalidation conditions for events that have already occurred. Use for pre-market, intraday, and after-hours questions on style, main themes, and catalysts. Trigger terms: market style, style switch, large-cap versus small-cap, growth versus value, dividend style, market main theme, hot sectors, sector rotation, concept sectors, event catalyst, policy impact. Does not judge the broad market and does not output market strength, sentiment stage, index direction, return forecasts, or trading instructions. Compliance boundary: references/compliance-boundary.md.",
+  "iconSource": "letter:auto"
+}

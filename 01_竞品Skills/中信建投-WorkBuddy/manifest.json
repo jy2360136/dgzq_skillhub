@@ -1,0 +1,434 @@
+{
+  "generated_at": "2026-11-15T03:55:58+08:00",
+  "source": "WorkBuddy 5.9.3 local installed skills",
+  "source_dir": "C:\\Users\\Administrator\\.workbuddy\\skills",
+  "skill_count": 8,
+  "file_count": 47,
+  "total_bytes": 1012344.0,
+  "runtime_status": "Installed; execution blocked because CSC_API_KEY is not injected",
+  "files": [
+    {
+      "directory": "csc-etf-selection",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 1607,
+      "sha256": "C9DCDF55C5D30955E0FB18EB68ED9DE21E121834BE45A87EFD9257C98FF9D3D2",
+      "skill_name": "ETF 筛选 Skill-中信建投",
+      "version": "1.0.4",
+      "skill_id": "skill_2100162800769396736"
+    },
+    {
+      "directory": "csc-etf-selection",
+      "relative_path": "SKILL.md",
+      "bytes": 42005,
+      "sha256": "2669AEDEDE6C8E8EB58B0372A6FB00686BE164F5667500129D62CB1EF223C0E2",
+      "skill_name": "ETF 筛选 Skill-中信建投",
+      "version": "1.0.4",
+      "skill_id": "skill_2100162800769396736"
+    },
+    {
+      "directory": "csc-fund-analysis-info-query",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 1016,
+      "sha256": "3393B0CEEE17B12CD7B3F05801F01B29BF995DF7A70D4A25482DFD07EED4F1B3",
+      "skill_name": "基金研判 Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2099747144475000832"
+    },
+    {
+      "directory": "csc-fund-analysis-info-query",
+      "relative_path": "SKILL.md",
+      "bytes": 53805,
+      "sha256": "ABFF02AC71DCEC6A77ECEBAA927CC9118502D5AFF8AE3FED3A81DC903360705C",
+      "skill_name": "基金研判 Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2099747144475000832"
+    },
+    {
+      "directory": "csc-listed-company-profile-industry-compare",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 1374,
+      "sha256": "87F451C501E781D973FBC104DF3227CA06DF1F395CB810010545868AF2D3373A",
+      "skill_name": "个股研判 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2099741641073876992"
+    },
+    {
+      "directory": "csc-listed-company-profile-industry-compare",
+      "relative_path": "SKILL.md",
+      "bytes": 29736,
+      "sha256": "11988B8455EFE00029E1099DF6551843E933E260540E59819E3724736A3B637C",
+      "skill_name": "个股研判 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2099741641073876992"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 1690,
+      "sha256": "E99B89DEBB027BE7C1BE9F16A803861CDE12EAD91DF991A17B1CA94CBE8BA354",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "assets/report-template.md",
+      "bytes": 5607,
+      "sha256": "106FAE926A3A2B8839150BECE4841EC6AA88A493CAE45E1378383F264146E8BA",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/compliance-boundary.md",
+      "bytes": 5007,
+      "sha256": "46C04A56B3BB143E97F652D1C250CE501F1D8961FA3D6C7D908F140ACF2DA202",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/data-source-config.md",
+      "bytes": 10783,
+      "sha256": "0FED37C26C14F11AA1288A47AE5AD924570DB2592B58933F12C54FD02FDCB7A6",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/data-source-queries.md",
+      "bytes": 15228,
+      "sha256": "A728FF561B64FA1020AE94A694E0F01E5AB9C5D924E5D60F97214CD7C469EE44",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/data-validation.md",
+      "bytes": 2163,
+      "sha256": "8CA148200BB27A67B360D09DD277332CCC9A0D00B3E52146CA28269FAC18BFE1",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/env-observations.md",
+      "bytes": 194119,
+      "sha256": "E19349D9F8760670353DC282CBF2A7FFB3898A1B65CDD7E8BE1FFD231C468047",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/error-handling.md",
+      "bytes": 1888,
+      "sha256": "B99DDB2B190AC710816762A51A6343830BE3E2E65C675D0A5371E7DE0577BC88",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/event-catalyst-rules.md",
+      "bytes": 3505,
+      "sha256": "99721EF9FF8016B84AE50B0822D011E5C4ED8D9DD3FD216CEA4BAE1831EE5B84",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/execution-checklist.md",
+      "bytes": 4577,
+      "sha256": "62CE5C3A6D4C4A889B551604A99ACA296252D8185DFD585985ED78A0D133BB83",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/market-mainline-rules.md",
+      "bytes": 4146,
+      "sha256": "82387DE7AD6592C94D1F632703C693A36C60B93C2A034694F58D00FAF6407477",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/mcp_skillhub_call.py",
+      "bytes": 17746,
+      "sha256": "9CB90D5F7D59DC12C9327E49E5D5BB8646425C37FE70F8AA5915166EA7AF25B3",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/scoring.md",
+      "bytes": 2155,
+      "sha256": "80CFA92B26D73F0BBA914B84DA5EEE1D8FFD93F6F252D209004C8AB7EB7EA953",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/style-analysis-rules.md",
+      "bytes": 2119,
+      "sha256": "7608602344281366A774921CAD617B566F9E368DB541FC12B4ECA78641AF380B",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "references/test-cases.md",
+      "bytes": 6282,
+      "sha256": "3E27864735F09F24D0A6FBF4646587E15EA6CDE74EE779C9D422AF195F1AE2A7",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-macro-analysis",
+      "relative_path": "SKILL.md",
+      "bytes": 15233,
+      "sha256": "39938E4DA7F244332B6FD1EC3BFF8136D5A6803EAA47730B156FCDE6973EF1D6",
+      "skill_name": "大盘分析Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997560749965312"
+    },
+    {
+      "directory": "csc-pankou",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 2016,
+      "sha256": "7D220FFED7F541091602CC66270C25E2865FD1D4EDE96FB544C5A0583DDB915A",
+      "skill_name": "盘口异动 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2112748068870000640"
+    },
+    {
+      "directory": "csc-pankou",
+      "relative_path": "scripts/csc_pankou.py",
+      "bytes": 11757,
+      "sha256": "B2D4A1F5502D39D6AB3220EBA481386CFC7B2C85D3829BAC719E514E5B67EB9C",
+      "skill_name": "盘口异动 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2112748068870000640"
+    },
+    {
+      "directory": "csc-pankou",
+      "relative_path": "SKILL.md",
+      "bytes": 15910,
+      "sha256": "0A2852EE3665022A04E82AAE2B9B1ACAB5D3345CEB6BFE82FA60183A063FF993",
+      "skill_name": "盘口异动 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2112748068870000640"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 2209,
+      "sha256": "81A0272ADD4805ECEB4AA57A74A951CAF79101AA01D7FEA75BA8374C44A7B3ED",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/compliance-boundary.md",
+      "bytes": 10386,
+      "sha256": "3C5566CA0837ABE823CB7BE9A2BE1386EA2EB4C94A27DF5BB19CBF33E0D40B40",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/data-source-config.md",
+      "bytes": 11635,
+      "sha256": "EF2952A5110986041CBBAF28D279E48F89C45CF73DD4CC90013870E74C85798F",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/data-source-queries.md",
+      "bytes": 36488,
+      "sha256": "61663142B2242F23AD7A1963DD636B32C6E2DB681455536C8F0C33C1F8417116",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/data-source-resilience.md",
+      "bytes": 20099,
+      "sha256": "C7082ADBCB905A9318EFE1BF521B6698B8D257E45013EDFE8D89F17AD0D42120",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/data-validation.md",
+      "bytes": 9851,
+      "sha256": "7E8CC8D4D338CD791D11D1C03E8F853C61CB67CE04372166C76E8DACB251ACD3",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/error-handling.md",
+      "bytes": 18585,
+      "sha256": "2B047AB913E78DD213F012AC8A5561A04DCDE296B8C21D0E5A6F6694B9C2F5BA",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/event-analysis-rules.md",
+      "bytes": 7245,
+      "sha256": "B14C954B707C9DB11A3BD67A36AE94638954B85466C2DF4A3ED7A7A566697AE9",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/execution-checklist.md",
+      "bytes": 17558,
+      "sha256": "DF7C1E4173C3362B2A42D0025A41A39BD15CD8BAD0E91DF656E6E6D051BA19FB",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/fundamental-analysis-rules.md",
+      "bytes": 6510,
+      "sha256": "D5AC2BE9D55E5FC6434101CA36890B3C7651ACE69988AF324767D4B7809366AF",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/mcp_skillhub_call.py",
+      "bytes": 7072,
+      "sha256": "03FBCC6506E6AF4DCF2854F8B17DAF11DADA95B2EABDCA9553DFF3D7F13635F2",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/scoring.md",
+      "bytes": 11748,
+      "sha256": "99A2C62B6D6DFB8181D85FDE4AF105842A901D100F046E7C179EFF1781E8E6F6",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "references/technical-analysis-rules.md",
+      "bytes": 20510,
+      "sha256": "7FC8DDA31DD6E2795A364749E073CA1813CC041212462513A674F33BC88DC68C",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "SKILL.md",
+      "bytes": 97244,
+      "sha256": "D0EE78E73796D4F36517C127D73BEF67673F1AF4D3B8331E96649AE3867B4160",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-analysis",
+      "relative_path": "templates/report-template.md",
+      "bytes": 21625,
+      "sha256": "AE442E99BCA9103451FA2CC01F362CC14173EDC936E88DF6E863FA99E6831C29",
+      "skill_name": "个股综合分析 Skill-中信建投",
+      "version": "1.0.2",
+      "skill_id": "skill_2112842609549336576"
+    },
+    {
+      "directory": "csc-stock-financial-report-insights",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 1244,
+      "sha256": "D71814D057EB1F44747C25A6E983667916A2AAD98D6994B50505A1396E22FE2C",
+      "skill_name": "财报透视 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2099745226554703872"
+    },
+    {
+      "directory": "csc-stock-financial-report-insights",
+      "relative_path": "SKILL.md",
+      "bytes": 32933,
+      "sha256": "734FF0C1EADB0486BEBA40B6990F196CD623DA834AA6131B4810E2D40E521AF7",
+      "skill_name": "财报透视 Skill-中信建投",
+      "version": "1.0.1",
+      "skill_id": "skill_2099745226554703872"
+    },
+    {
+      "directory": "csc-stock-pick",
+      "relative_path": "_skillhub_meta.json",
+      "bytes": 1931,
+      "sha256": "26B235850C2A07142E1F4E91A8A72A4D7F587EA35982E6F1FD6ECD58755D3101",
+      "skill_name": "智能选股Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997580993359872"
+    },
+    {
+      "directory": "csc-stock-pick",
+      "relative_path": "data/stock-select-factor.csv",
+      "bytes": 192123,
+      "sha256": "78D342A3656BB74E60B5FB3ED8F220FB8F5CDBD058F23B354A80BA2B8BBD6C4E",
+      "skill_name": "智能选股Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997580993359872"
+    },
+    {
+      "directory": "csc-stock-pick",
+      "relative_path": "scripts/factors.js",
+      "bytes": 4282,
+      "sha256": "9D942928DFB42AE92E82FCD3B640FD1392C59C58225F5642F53B283DAD748B44",
+      "skill_name": "智能选股Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997580993359872"
+    },
+    {
+      "directory": "csc-stock-pick",
+      "relative_path": "scripts/pick.js",
+      "bytes": 14251,
+      "sha256": "C27570FEA9247C7FA1D59AC90785B7A118207B409D9C98BB2A50F6AB49B4F6DF",
+      "skill_name": "智能选股Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997580993359872"
+    },
+    {
+      "directory": "csc-stock-pick",
+      "relative_path": "SKILL.md",
+      "bytes": 15341,
+      "sha256": "D52333AC86AB73BDDCE4C167757E33FFCAB3E0FEF0EC54B5A7C36103FBFCAA29",
+      "skill_name": "智能选股Skill-中信建投",
+      "version": "1.0.0",
+      "skill_id": "skill_2111997580993359872"
+    }
+  ]
+}

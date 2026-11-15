@@ -1,0 +1,55 @@
+{
+  "note": "第4项用户链接与财务对比重复，ETF榜单使用额外解析到的官方 gf-etf-rank 包",
+  "retrieved_at": "2026-11-13",
+  "packages": [
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-lhb-list_v0.0.3_ytjskills.zip",
+      "zip": "gf-lhb-list_v0.0.3_ytjskills.zip",
+      "sha": "4C8401208EA4A555341325FA58321A2314375C918D5B94BADFC86CABA0D0058B",
+      "name": "gf-lhb-list"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-stock-f10_v0.0.3_ytjskills.zip",
+      "zip": "gf-stock-f10_v0.0.3_ytjskills.zip",
+      "sha": "C1077A7560298A7F14AFB2897E896218D99A328EC69C6C61BEE794EC7CB5AE5D",
+      "name": "gf-stock-f10"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-stock-valuation_v0.0.3_ytjskills.zip",
+      "zip": "gf-stock-valuation_v0.0.3_ytjskills.zip",
+      "sha": "A18451457C76AF0F0E5D63972DDA7690A6B78A08CB9B3E55C81C9F5FD9254077",
+      "name": "gf-stock-valuation"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-etf-search_v0.0.3_ytjskills.zip",
+      "zip": "gf-etf-search_v0.0.3_ytjskills.zip",
+      "sha": "0202527E5F451A7ACE0DB0B0C885D2DFD711F9864980D665DFCA6F033D6C09D9",
+      "name": "gf-etf-search"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-etf-rank_v0.0.3_ytjskills.zip",
+      "zip": "gf-etf-rank_v0.0.3_ytjskills.zip",
+      "sha": "22055C81A3DD20BF23307363A889618899AEA2F66F84FB6DC2911174D2F58998",
+      "name": "gf-etf-rank"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-etf-super-fund_v0.0.3_ytjskills.zip",
+      "zip": "gf-etf-super-fund_v0.0.3_ytjskills.zip",
+      "sha": "E5B638558252B3361B497B9CFB7AFA5F1D8BEDAEB43D7FC4B2198A5E7723D072",
+      "name": "gf-etf-super-fund"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-fund-detail_v0.0.3_ytjskills.zip",
+      "zip": "gf-fund-detail_v0.0.3_ytjskills.zip",
+      "sha": "A5212BA45147D93802F85A25329996C917348D6D2B36D0AED78C615B40F75932",
+      "name": "gf-fund-detail"
+    },
+    {
+      "url": "https://cdn.gfzq.cn/marketing/static/skills/gf-fund-invest_v0.0.3_ytjskills.zip",
+      "zip": "gf-fund-invest_v0.0.3_ytjskills.zip",
+      "sha": "BF8AE640E3E16D73EE11E842DF5BCC5335898A8CA42AF40419BDCD1E98B105F2",
+      "name": "gf-fund-invest"
+    }
+  ],
+  "institution": "广发证券"
+}

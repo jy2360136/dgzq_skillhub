@@ -1,0 +1,18 @@
+# Local secrets and generated credentials
+.env
+.env.*
+*memory.md
+*.apikey
+apikey
+**/apikey
+**/.mx-skills/
+**/.gf-skills/
+**/.codex/
+**/local_storage/
+# Internal scratch and runtime caches
+99_临时文件/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+node_modules/

@@ -1,0 +1,11 @@
+{
+  "name": "个股综合分析 Skill-中信建投",
+  "installedAt": 1794685901458,
+  "source": "marketplace",
+  "version": "1.0.2",
+  "skillId": "skill_2112842609549336576",
+  "pay_mode": 0,
+  "description_zh": "提供A股标的深度分析服务，支持单股综合分析、多股对比分析，分析维度涵盖基本面、技术面、财务、资金、新闻、公告与事件，也可对单一维度进行深入分析。默认覆盖基本面、财务、技术面、资金、新闻、公告与事件；用户指定其中几项时按指定范围展开，公告与事件仍核查。可以分析一只，也可以按同一口径对比多只。触发词：六维分析、个股诊断、公司公告、公司事件、消息面、舆情、回购减持、ST分析、重整进展、摘帽条件、财报对比、价值分析、基本面、技术面。不适用：未提供标的、非 A 股、要求投资建议或收益预测。不回答该不该买、何时买、买多少等问题。未点名个股而问大盘、指数、行业比较、板块轮动或入场配置时，立即结束，禁止借用本技能的数据通道作答。合规边界见 references/compliance-boundary.md。",
+  "description_en": "Analyzes A-share stocks in depth: comprehensive single-stock analysis and multi-stock comparison. Dimensions: fundamentals, technicals, financials, capital flow, news, filings, and events. Default coverage is all six; when the user narrows the scope, cover only that scope but still check filings and events. Trigger terms: six-dimension analysis, stock diagnosis, company filings, company events, news flow, buybacks and stake reductions, ST analysis, restructuring progress, earnings comparison, value analysis, fundamentals, technicals. Not applicable without a stock, for non-A-share listings, or when asked for investment advice or return forecasts. Does not answer whether to buy, when to buy, or how much to buy. If the question is about the broad market, an index, industry comparison, sector rotation, or allocation without a stock, stop immediately and do not answer through this skill's data channel. Compliance boundary: references/compliance-boundary.md.",
+  "iconSource": "letter:auto"
+}

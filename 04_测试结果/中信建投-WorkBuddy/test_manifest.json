@@ -1,0 +1,21 @@
+{
+  "tested_at": "2026-11-15",
+  "institution": "中信建投",
+  "surface": "WorkBuddy 5.11.3",
+  "skill": "csc-etf-selection",
+  "skill_version": "1.0.4",
+  "case": "沪深300指数估值",
+  "query": "查询沪深300指数000300.SH最新PE、PB、5年PE/PB历史百分位、ROE、股息率和近一年最大回撤",
+  "status": "success",
+  "http_status": [200, 200, 200],
+  "api_key_injected": true,
+  "raw": [
+    "04_测试结果/中信建投-WorkBuddy/raw/index_basic_000300_SH.json",
+    "04_测试结果/中信建投-WorkBuddy/raw/index_valuation_pe_5y_000300_SH.json",
+    "04_测试结果/中信建投-WorkBuddy/raw/index_valuation_pb_5y_000300_SH.json"
+  ],
+  "final_answer": "04_测试结果/中信建投-WorkBuddy/final_answers/hs300_valuation_20261115.md",
+  "evidence_screenshot": "04_测试结果/中信建投-WorkBuddy/evidence/workbuddy-hs300-success.jpg",
+  "comparison_report": "03_能力矩阵/中信建投vs妙想-沪深300估值实测.md",
+  "notes": "WorkBuddy must be launched with CSC_API_KEY/CSC_SKILLHUB_API_KEY in its process environment. The WorkBuddy UI had a false-positive command safety block on the csc108 URL, so it executed an equivalent Python request script."
+}

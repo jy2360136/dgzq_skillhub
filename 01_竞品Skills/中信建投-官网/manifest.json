@@ -1,0 +1,316 @@
+{
+  "generated_at": "2026-11-15",
+  "source": "中信建投蜻蜓 Skill 广场官方下载接口",
+  "auth": "请求头 X-API-Key，读取用户环境变量 SKILLHUB_API_KEY；Key 未写入仓库",
+  "skill_count": 8,
+  "total_zip_bytes": 314323,
+  "skills": [
+    {
+      "skill_id": "csc-etf-index-analysis",
+      "workbuddy_id": "csc-etf-selection",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-etf-index-analysis.zip",
+        "bytes": 10261,
+        "sha256": "f26765580cf9fe6536a77ab102d73e9c06d1b82ee827d2d9097032644ba9e9a7"
+      },
+      "extracted_files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 37647,
+          "sha256": "4503387d1234b028cb3a59bbc89508e0cece8fb20854c3c69e2c2897ec6580b3"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-etf-selection",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "csc-fund-product-info-query",
+      "workbuddy_id": "csc-fund-analysis-info-query",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-fund-product-info-query.zip",
+        "bytes": 15153,
+        "sha256": "c7cb84c17341b9bb90cbad3e6ff7ec3251237fbe94ba0d5dd8399a999af5028b"
+      },
+      "extracted_files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 52574,
+          "sha256": "4ef18cfbb1f0c3b3a9ea7537c3aa51c3eec3907122344edc5ab255a735733279"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-fund-analysis-info-query",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "csc-listed-company-profile-industry-compare",
+      "workbuddy_id": "csc-listed-company-profile-industry-compare",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-listed-company-profile-industry-compare.zip",
+        "bytes": 9078,
+        "sha256": "871c789ed56578903dabce5ae30ae1c052d024b2b52f6ec1cdefb16eada07d1e"
+      },
+      "extracted_files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 28119,
+          "sha256": "218beab8a41657bc4d397b43d178fb1b60b32cce6d464d668ba09ed128fa130e"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-listed-company-profile-industry-compare",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "csc-macro-analysis",
+      "workbuddy_id": "csc-macro-analysis",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-macro-analysis.zip",
+        "bytes": 109846,
+        "sha256": "30d1afe21533440dac14fd856f8eabbc68ea914ce0aa54b6f0da081fa25b0ffd"
+      },
+      "extracted_files": [
+        {
+          "path": "assets/report-template.md",
+          "bytes": 5607,
+          "sha256": "106fae926a3a2b8839150bece4841ec6aa88a493cae45e1378383f264146e8ba"
+        },
+        {
+          "path": "references/compliance/compliance-boundary.md",
+          "bytes": 5007,
+          "sha256": "46c04a56b3bb143e97f652d1c250ce501f1d8961fa3d6c7d908f140acf2da202"
+        },
+        {
+          "path": "references/data-source-config.md",
+          "bytes": 10783,
+          "sha256": "0fed37c26c14f11aa1288a47ae5ad924570db2592b58933f12c54fd02fdcb7a6"
+        },
+        {
+          "path": "references/data-source-queries.md",
+          "bytes": 15228,
+          "sha256": "a728ff561b64fa1020ae94a694e0f01e5ab9c5d924e5d60f97214cd7c469ee44"
+        },
+        {
+          "path": "references/data-validation.md",
+          "bytes": 2163,
+          "sha256": "8ca148200bb27a67b360d09dd277332ccc9a0d00b3e52146ca28269fac18bfe1"
+        },
+        {
+          "path": "references/env-observations.md",
+          "bytes": 194119,
+          "sha256": "e19349d9f8760670353dc282cbf2a7ffb3898a1b65cdd7e8be1ffd231c468047"
+        },
+        {
+          "path": "references/error-handling.md",
+          "bytes": 1888,
+          "sha256": "b99ddb2b190ac710816762a51a6343830be3e2e65c675d0a5371e7de0577bc88"
+        },
+        {
+          "path": "references/execution-checklist.md",
+          "bytes": 4577,
+          "sha256": "62ce5c3a6d4c4a889b551604a99aca296252d8185dfd585985ed78a0d133bb83"
+        },
+        {
+          "path": "references/mcp_skillhub_call.py",
+          "bytes": 17746,
+          "sha256": "9cb90d5f7d59dc12c9327e49e5d5bb8646425c37fe70f8aa5915166ea7af25b3"
+        },
+        {
+          "path": "references/research/event-catalyst-rules.md",
+          "bytes": 3505,
+          "sha256": "99721ef9ff8016b84ae50b0822d011e5c4ed8d9dd3fd216cea4bae1831ee5b84"
+        },
+        {
+          "path": "references/research/market-mainline-rules.md",
+          "bytes": 4146,
+          "sha256": "82387de7ad6592c94d1f632703c693a36c60b93c2a034694f58d00faf6407477"
+        },
+        {
+          "path": "references/research/scoring.md",
+          "bytes": 2155,
+          "sha256": "80cfa92b26d73f0bba914b84da5eee1d8ffd93f6f252d209004c8ab7eb7ea953"
+        },
+        {
+          "path": "references/research/style-analysis-rules.md",
+          "bytes": 2119,
+          "sha256": "7608602344281366a774921cad617b566f9e368db541fc12b4eca78641af380b"
+        },
+        {
+          "path": "references/test-cases.md",
+          "bytes": 6282,
+          "sha256": "3e27864735f09f24d0a6fbf4646587e15ea6cde74ee779c9d422af195f1ae2a7"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 13109,
+          "sha256": "863e5e005de025cd7d58a476f038b9721f7d4e5e90ecf0995e7cb220d0108d9e"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-macro-analysis",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "csc-pankou",
+      "workbuddy_id": "csc-pankou",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-pankou.zip",
+        "bytes": 9980,
+        "sha256": "1b140f2c0324b2bc47ac40172728d13c20d566c6e979b9008f1a8c7e711e960b"
+      },
+      "extracted_files": [
+        {
+          "path": "scripts/csc_pankou.py",
+          "bytes": 11757,
+          "sha256": "b2d4a1f5502d39d6ab3220eba481386cfc7b2c85d3829bac719e514e5b67eb9c"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 13093,
+          "sha256": "9e3be5d47533ba5521fde983a1c89ed6a1d4231601ebec0a3ae5c591f8788520"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-pankou",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "csc-stock-analysis",
+      "workbuddy_id": "csc-stock-analysis",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-stock-analysis.zip",
+        "bytes": 124934,
+        "sha256": "dccbed2afe275fbe4acf0f476fdae93750d1d73398813e05b4add2e0703bd1ae"
+      },
+      "extracted_files": [
+        {
+          "path": "assets/report-template.md",
+          "bytes": 21625,
+          "sha256": "ae442e99bca9103451fa2cc01f362cc14173edc936e88df6e863fa99e6831c29"
+        },
+        {
+          "path": "references/compliance-boundary.md",
+          "bytes": 10307,
+          "sha256": "73b52cf7f57667e62221b76e7958531fba40631701a4b59f24a0ebbeab15ce84"
+        },
+        {
+          "path": "references/data-source-config.md",
+          "bytes": 11632,
+          "sha256": "a007e65ea0f6c9ad659a15292c67eb7ad234bde659f3230f73a140863f3cee43"
+        },
+        {
+          "path": "references/data-source-queries.md",
+          "bytes": 36488,
+          "sha256": "61663142b2242f23ad7a1963dd636b32c6e2db681455536c8f0c33c1f8417116"
+        },
+        {
+          "path": "references/data-source-resilience.md",
+          "bytes": 15908,
+          "sha256": "e0c7dc8ce9b0003c30ed123e760a43d6be4c2d90e654b77da61d6f5c0f46e6a1"
+        },
+        {
+          "path": "references/data-validation.md",
+          "bytes": 9820,
+          "sha256": "674dbb00f252be7810c03c0f76dd977b33876490db935b43a07d8145ede9a5f8"
+        },
+        {
+          "path": "references/error-handling.md",
+          "bytes": 18585,
+          "sha256": "2b047ab913e78dd213f012ac8a5561a04dcde296b8c21d0e5a6f6694b9c2f5ba"
+        },
+        {
+          "path": "references/event-analysis-rules.md",
+          "bytes": 7245,
+          "sha256": "b14c954b707c9db11a3bd67a36ae94638954b85466c2df4a3ed7a7a566697ae9"
+        },
+        {
+          "path": "references/execution-checklist.md",
+          "bytes": 17501,
+          "sha256": "103a1f000329ea2bec8a5d9d28e4a45fa9114f837b6fb1dfce32ba9a8f8f04d5"
+        },
+        {
+          "path": "references/fundamental-analysis-rules.md",
+          "bytes": 6510,
+          "sha256": "d5ac2be9d55e5fc6434101ca36890b3c7651ace69988af324767d4b7809366af"
+        },
+        {
+          "path": "references/mcp_skillhub_call.py",
+          "bytes": 7072,
+          "sha256": "03fbcc6506e6af4dcf2854f8b17daf11dada95b2eabdca9553dff3d7f13635f2"
+        },
+        {
+          "path": "references/scoring.md",
+          "bytes": 11748,
+          "sha256": "99a2c62b6d6dfb8181d85fde4af105842a901d100f046e7c179eff1781e8e6f6"
+        },
+        {
+          "path": "references/technical-analysis-rules.md",
+          "bytes": 20510,
+          "sha256": "7fc8dda31dd6e2795a364749e073ca1813cc041212462513a674f33bc88dc68c"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 95963,
+          "sha256": "2e6a0fa65622eeafd413453565eb1be5701bce2adf944ee44f75e9305dca30d1"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-stock-analysis",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "csc-stock-financial-query",
+      "workbuddy_id": "csc-stock-financial-report-insights",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/csc-stock-financial-query.zip",
+        "bytes": 8968,
+        "sha256": "e5ea62196701a92aa6bcd6b6e31f0c6795266c60871de6668e994fb5041bf523"
+      },
+      "extracted_files": [
+        {
+          "path": "SKILL.md",
+          "bytes": 31414,
+          "sha256": "58d298ba9a42b5af152d717e6db51655792e326ccb5c6e843d086b7216aae614"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-stock-financial-report-insights",
+      "workbuddy_present": true
+    },
+    {
+      "skill_id": "stock-pick",
+      "workbuddy_id": "csc-stock-pick",
+      "download_url_template": "https://skillhub.csc108.com/api/h5/skills/{skill_id}/download",
+      "zip": {
+        "path": "01_竞品Skills/中信建投-官网/packages/stock-pick.zip",
+        "bytes": 26103,
+        "sha256": "0473c7e275b317dfb094cce02a0e11b00d71bad180d941fbc8c06660a949dbf3"
+      },
+      "extracted_files": [
+        {
+          "path": "data/stock-select-factor.csv",
+          "bytes": 192123,
+          "sha256": "78d342a3656bb74e60b5fb3ed8f220fb8f5cdbd058f23b354a80ba2b8bbd6c4e"
+        },
+        {
+          "path": "scripts/factors.js",
+          "bytes": 4282,
+          "sha256": "9d942928dfb42ae92e82fcd3b640fd1392c59c58225f5642f53b283dad748b44"
+        },
+        {
+          "path": "scripts/pick.js",
+          "bytes": 14251,
+          "sha256": "c27570fea9247c7fa1d59ac90785b7a118207b409d9c98bb2a50f6ab49b4f6df"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 13542,
+          "sha256": "b6ca0d6df976157057c02a71a3f90bc0e31a4f63e7b0db90d585e4a56021fb24"
+        }
+      ],
+      "workbuddy_installed_path": "C:/Users/Administrator/.workbuddy/skills/csc-stock-pick",
+      "workbuddy_present": true
+    }
+  ]
+}
