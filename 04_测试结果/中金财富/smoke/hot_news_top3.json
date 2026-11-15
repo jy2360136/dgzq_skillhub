@@ -1,0 +1,314 @@
+{
+  "query": "hot_rank",
+  "cmdname": "SkillEInformationTopicSecendPage",
+  "page_num": 1,
+  "page_size": 3,
+  "type": 1,
+  "scene": "1",
+  "data": {
+    "ret": 0,
+    "time": 1794754558,
+    "msg": "",
+    "msgno": "2b13b40a1794754558927822920",
+    "app_seq": "",
+    "rsp_encrypt_type": 0,
+    "rsp": {
+      "request_no": "2b13b40a1794754558927822920",
+      "ret_code": 0,
+      "ret_msg": "�ɹ�",
+      "spec_subject_name": "�����Ȱ�",
+      "detail": "��ע�ذ���Ѷ��ֱ����ǰ�г��ȵ�",
+      "main_pic_url": "https://procos.ciccwm.com/cos/xiaoniu/image/1721381414637/1721381414642.png",
+      "skip_url": "http://action:10061/?isshowtitle=1&&contentTop=1&&url=https://web.ciccwm.com/zzt/app/news/#/trending?activeTab=news&id=35",
+      "total": 2,
+      "content_list": [
+        {
+          "id": "32783113",
+          "title": "���ܣ��ذ��¼��ܼ���أ�A����ô�ߣ�",
+          "source": "ÿ�վ�������",
+          "relate_images": [
+            "http://rss.nbd.com.cn/image.nbd.com.cn/uploads/articles/thumbnails/1934699/open-uri20261115-2596-1cihl37.thumb_head.jpg"
+          ],
+          "pub_time": "2026-11-15 12:20:21",
+          "extend": {},
+          "classes": [
+            "15025"
+          ],
+          "stock_info": [],
+          "big_image_url": "",
+          "source_code": "everyday-news",
+          "content_id": "4647959",
+          "hot_label_url": "https://procos.ciccwm.com/cos/xiaoniu/image/1750755922314/1750755922316.png",
+          "hot_value": "",
+          "label_type": 1,
+          "detail_url": "http://action:10061/?secondtype=1&&fullscreen=1&&showShare=1&&url=https://web.ciccwm.com/zzt/app/news/index.html#/detail?msgNew=msgNew&id=32783113%26categoryName%3D59207f1d%26rootCategoryName%3D59207f1d%26groupId%3D%26response%3D%26reqId%3D",
+          "req_id": "",
+          "response": "",
+          "group_id": "",
+          "out_detail_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=32783113",
+          "report_content_id": "everyday-news_4647959",
+          "short_content": "",
+          "simple_research_list": [],
+          "pattern_type": "",
+          "pattern_img_white": "",
+          "pattern_img_black": "",
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=32783113"
+        },
+        {
+          "id": "32783415",
+          "title": "Ӣΰ�ｫӭ�Ʊ��󿼣�ʮ����Ϣ����",
+          "source": "֤ȯʱ����",
+          "relate_images": [
+            "https://o.thsi.cn/website-broker-info-pod.cloud-material/4870feeee9da0c11"
+          ],
+          "pub_time": "2026-11-15 17:40:27",
+          "extend": {},
+          "classes": [
+            "002017080"
+          ],
+          "stock_info": [],
+          "big_image_url": "https://o.thsi.cn/website-broker-info-pod.cloud-material/9f92c5b5c03eb6d8",
+          "source_code": "ths-news",
+          "content_id": "681829966",
+          "hot_label_url": "https://procos.ciccwm.com/cos/xiaoniu/image/1750756143175/1750756143177.png",
+          "hot_value": "",
+          "label_type": 3,
+          "detail_url": "http://action:10061/?secondtype=1&&fullscreen=1&&showShare=1&&url=https://web.ciccwm.com/zzt/app/news/index.html#/detail?msgNew=msgNew&id=32783415%26categoryName%3D59207f1d%26rootCategoryName%3D59207f1d%26groupId%3D%26response%3D%26reqId%3D",
+          "req_id": "",
+          "response": "",
+          "group_id": "",
+          "out_detail_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=32783415",
+          "report_content_id": "ths-news_681829966",
+          "short_content": "",
+          "simple_research_list": [],
+          "pattern_type": "",
+          "pattern_img_white": "",
+          "pattern_img_black": "",
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=32783415"
+        }
+      ],
+      "last_page": true,
+      "update_time": "2026-11-15 19:27:05",
+      "title_pic": "https://procos.ciccwm.com/cos/xiaoniu/image/1695088170569/1695088170574.png",
+      "big_title_pic": "https://procos.ciccwm.com/cos/xiaoniu/image/1695088164728/1695088164736.png",
+      "open_state": "",
+      "spec_subject_id": "35",
+      "today_hot_content_list": [
+        {
+          "type": 1,
+          "spec_content": {
+            "id": "32783113",
+            "title": "���ܣ��ذ��¼��ܼ���أ�A����ô�ߣ�",
+            "source": "ÿ�վ�������",
+            "relate_images": [
+              "http://rss.nbd.com.cn/image.nbd.com.cn/uploads/articles/thumbnails/1934699/open-uri20261115-2596-1cihl37.thumb_head.jpg"
+            ],
+            "pub_time": "2026-11-15 12:20:21",
+            "extend": {},
+            "classes": [
+              "15025"
+            ],
+            "stock_info": [],
+            "big_image_url": "",
+            "source_code": "everyday-news",
+            "content_id": "4647959",
+            "hot_label_url": "https://procos.ciccwm.com/cos/xiaoniu/image/1750755922314/1750755922316.png",
+            "hot_value": "",
+            "label_type": 1,
+            "detail_url": "http://action:10061/?secondtype=1&&fullscreen=1&&showShare=1&&url=https://web.ciccwm.com/zzt/app/news/index.html#/detail?msgNew=msgNew&id=32783113%26categoryName%3D59207f1d%26rootCategoryName%3D59207f1d%26groupId%3D%26response%3D%26reqId%3D",
+            "req_id": "",
+            "response": "",
+            "group_id": "",
+            "out_detail_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=32783113",
+            "read_num": 3040,
+            "report_content_id": "everyday-news_4647959",
+            "short_content": "",
+            "simple_research_list": [],
+            "pattern_type": "",
+            "pattern_img_white": "",
+            "pattern_img_black": ""
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=1"
+        },
+        {
+          "type": 1,
+          "spec_content": {
+            "id": "32783415",
+            "title": "Ӣΰ�ｫӭ�Ʊ��󿼣�ʮ����Ϣ����",
+            "source": "֤ȯʱ����",
+            "relate_images": [
+              "https://o.thsi.cn/website-broker-info-pod.cloud-material/4870feeee9da0c11"
+            ],
+            "pub_time": "2026-11-15 17:40:27",
+            "extend": {},
+            "classes": [
+              "002017080"
+            ],
+            "stock_info": [],
+            "big_image_url": "https://o.thsi.cn/website-broker-info-pod.cloud-material/9f92c5b5c03eb6d8",
+            "source_code": "ths-news",
+            "content_id": "681829966",
+            "hot_label_url": "https://procos.ciccwm.com/cos/xiaoniu/image/1750756143175/1750756143177.png",
+            "hot_value": "",
+            "label_type": 3,
+            "detail_url": "http://action:10061/?secondtype=1&&fullscreen=1&&showShare=1&&url=https://web.ciccwm.com/zzt/app/news/index.html#/detail?msgNew=msgNew&id=32783415%26categoryName%3D59207f1d%26rootCategoryName%3D59207f1d%26groupId%3D%26response%3D%26reqId%3D",
+            "req_id": "",
+            "response": "",
+            "group_id": "",
+            "out_detail_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=32783415",
+            "read_num": 3960,
+            "report_content_id": "ths-news_681829966",
+            "short_content": "",
+            "simple_research_list": [],
+            "pattern_type": "",
+            "pattern_img_white": "",
+            "pattern_img_black": ""
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=1"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "����ѫ����Ӣΰ��CEO���������Ƽ���˽���",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-13 07:51:46",
+            "id": "10146",
+            "positive_sector_name": [
+              "AMD����"
+            ],
+            "negative_sector_name": [
+              "Ӣΰ�����",
+              "CPO",
+              "�Ƚ���װ"
+            ],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "���а��������ů�������������Ͼ����еȶ�ɴ���ʷ�¸�",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-13 10:31:13",
+            "id": "10182",
+            "positive_sector_name": [
+              "�����"
+            ],
+            "negative_sector_name": [],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "AIӲ�����ٶ���ˮ����ͨ����PCB�����������",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-13 13:15:12",
+            "id": "10203",
+            "positive_sector_name": [
+              "AIӦ��"
+            ],
+            "negative_sector_name": [
+              "��ͨ��",
+              "PCB"
+            ],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "�������ź���������AI�����鼯����ǿ",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-13 11:14:15",
+            "id": "10194",
+            "positive_sector_name": [
+              "�̾�",
+              "��Ϸ",
+              "AIGC"
+            ],
+            "negative_sector_name": [],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "�����׿�ڷ�GLP-1����ҩ��������ǰ����",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-12 22:30:47",
+            "id": "10170",
+            "positive_sector_name": [
+              "����ҩ",
+              "����ҩ",
+              "CRO/CMO"
+            ],
+            "negative_sector_name": [],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "��һ�����ֽ�AI׷ƽ�����ͷ�赽2029��2030��",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-12 17:23:25",
+            "id": "10147",
+            "positive_sector_name": [
+              "��������",
+              "��Ϸ",
+              "Ӱ��",
+              "���λ�����"
+            ],
+            "negative_sector_name": [],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        },
+        {
+          "type": 4,
+          "opportunity": {
+            "title": "Cerebras��������Ӫ�ճ�Ԥ�ڣ��̺�ɼ۴��ǳ�16%",
+            "source": "���Ჶ��",
+            "pub_time": "2026-11-13 07:30:50",
+            "id": "10149",
+            "positive_sector_name": [
+              "����оƬ",
+              "��������",
+              "AI������"
+            ],
+            "negative_sector_name": [],
+            "read_num": 0,
+            "hot_label_url": "https://procos.ciccwm.com/cos/fe/xiaoniu/image/1794471729899/1794471729900.png",
+            "skip_url": "",
+            "source_code": "clsexp"
+          },
+          "redirect_url": "https://web.ciccwm.com/zzt/app/news/#/detail?msgNew=msgNew&id=&type=4"
+        }
+      ]
+    }
+  }
+}

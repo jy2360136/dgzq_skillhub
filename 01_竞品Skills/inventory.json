@@ -301,6 +301,66 @@
       "status": "installed_snapshot",
       "executed": false,
       "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中金财富",
+      "skill": "ETF热榜",
+      "archive": "01_竞品Skills/中金财富/packages/ciccwm-etf-ranking-analysis.zip",
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-etf-ranking-analysis/ciccwm-etf-ranking-analysis",
+      "stored_in_repository": true,
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/中金财富/benchmark/"
+    },
+    {
+      "institution": "中金财富",
+      "skill": "基金产品信息",
+      "archive": "01_竞品Skills/中金财富/packages/ciccwm-fund-product-info.zip",
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-fund-product-info/ciccwm-fund-product-info",
+      "stored_in_repository": true,
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/中金财富/benchmark/"
+    },
+    {
+      "institution": "中金财富",
+      "skill": "热榜资讯",
+      "archive": "01_竞品Skills/中金财富/packages/ciccwm-hot-news-analysis.zip",
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-hot-news-analysis/ciccwm-hot-news-analysis",
+      "stored_in_repository": true,
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/中金财富/benchmark/"
+    },
+    {
+      "institution": "中金财富",
+      "skill": "行情数据",
+      "archive": "01_竞品Skills/中金财富/packages/ciccwm-market-analysis.zip",
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-market-analysis/ciccwm-market-analysis",
+      "stored_in_repository": true,
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/中金财富/benchmark/"
+    },
+    {
+      "institution": "中金财富",
+      "skill": "财务数据",
+      "archive": "01_竞品Skills/中金财富/packages/ciccwm-stock-finance-analysis.zip",
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-stock-finance-analysis/ciccwm-stock-finance-analysis",
+      "stored_in_repository": true,
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/中金财富/benchmark/"
+    },
+    {
+      "institution": "中金财富",
+      "skill": "龙虎榜",
+      "archive": "01_竞品Skills/中金财富/packages/ciccwm-tiger-list-analysis.zip",
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-tiger-list-analysis/ciccwm-tiger-list-analysis",
+      "stored_in_repository": true,
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/中金财富/benchmark/"
     }
   ]
 }

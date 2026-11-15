@@ -1,0 +1,13 @@
+{
+  "ret": 0,
+  "time": 1794754558,
+  "msg": "",
+  "msgno": "2f13b40a1794754558305886016",
+  "app_seq": "",
+  "rsp_encrypt_type": 0,
+  "rsp": {
+    "ret_code": 0,
+    "ret_msg": "�ɹ�",
+    "data": "{\"HQInfo\":{\"HQDate\":\"20261113\",\"HQTime\":\"153000\",\"ItemNum\":\"4479\",\"Close\":1410.27,\"Open\":1404,\"MaxP\":1437.69,\"MinP\":1394,\"Now\":1435.26,\"Volume\":\"41779\",\"Amount\":5.95483392e+09,\"Inside\":\"17946\",\"Outside\":\"23834\",\"InOutFlag\":2,\"Yield\":1.25008166e+09,\"Jjjz\":125008.164,\"CJBS\":\"30351\",\"LB\":1.28229105,\"HSL\":0.334210187,\"Average\":1425.28882,\"PHVolume\":1400,\"RestVol\":\"84\"},\"ExtInfo\":{\"ZTPrice\":1551.3,\"DTPrice\":1269.24,\"ZGB\":125008.156,\"LTGB\":125008.156,\"MGSY\":51.53,\"MGJZC\":216.95,\"MGGX\":1.95,\"ZSZ\":1.79419205e+12,\"SYL\":20.8732376,\"Addr\":29,\"BelongHY\":\"82102\",\"HYZAF\":1.71382284,\"BelongHS300\":1,\"BelongRZRQ\":1,\"BelongHGTAG\":1,\"FreeLtgb\":54094.9},\"StatInfo\":{},\"CwInfo\":{\"LTGB\":125008.156,\"ZGB\":125008.156,\"Addr\":29,\"BelongHY\":\"82102\",\"GXRQ\":\"20261031\",\"Start\":\"20010827\",\"MGSY2\":51.53,\"ZZC\":31830490,\"LDZC\":26964684,\"GDZC\":2181936,\"WXZC\":852216.312,\"GDRS\":278364,\"LDFZ\":3752050.75,\"CPFZ\":921687.625,\"ZBGJJ\":157.7,\"JZC\":27120474,\"YYSR\":13097074,\"YYCB\":1364571.88,\"YSZK\":36453.8281,\"YYLR\":8897985,\"TZSY\":23.09,\"JYXJL\":8405898,\"ZXJL\":6956797.5,\"CH\":6139082,\"LYZE\":8901766,\"SHLY\":6671714.5,\"JLY\":6446742.5,\"WFPLY\":21963376,\"MGJZC2\":216.95,\"HalfYearFlag\":9,\"CagePriceUp\":1463.97,\"CagePriceDown\":1406.3,\"ZTStatus2\":100,\"MoreHy\":8210205,\"SafeValue\":90,\"IPOPrice\":31.39,\"ShinePoint\":12,\"IPOTQPrice\":-313.93},\"BaseInfo\":{\"Setcode\":1,\"Code\":\"600519\",\"Name\":\"����ę́\",\"XSFlag\":2,\"OpenStatus\":5,\"AmoUnit\":1,\"IsNeedJustCJL\":1,\"VolBase\":135,\"Unit\":100},\"ProInfo\":{\"UnderlyMarket\":1,\"UnderlyCode\":\"515170\",\"NowVol\":\"1773\",\"zangsu\":0.355899334,\"HQMaskFlag\":\"7\",\"InOut\":443397120,\"InOutHB\":315249152,\"Wtb\":-70.5882339,\"Zaf20\":8,\"ThisYear\":6.38,\"PEStatic\":21.7953186,\"PETTM\":21.8375816,\"ch\":20.41,\"Implied\":3.1,\"Delta\":0.57,\"Gamma\":-0.259838253,\"Vega\":5.9,\"RHo\":-1.22,\"Theta\":3.1,\"LLPrice\":1.19,\"OpenAmo\":2.106e+07,\"ConZAFDateNum\":2},\"aHasHQInfo\":1,\"aHasExtInfo\":1,\"aHasCwInfo\":1,\"aHasProInfo\":1,\"CalcInfo\":{}}"
+  }
+}

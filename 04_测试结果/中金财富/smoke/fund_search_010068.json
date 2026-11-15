@@ -1,0 +1,17 @@
+{
+  "query": {
+    "keyword": "010068",
+    "page": 1,
+    "page_size": 5
+  },
+  "page": 1,
+  "page_size": 5,
+  "returned_count": 0,
+  "count": 0,
+  "total_count": null,
+  "total_pages": null,
+  "has_more": false,
+  "display_note": "Ĭ��չʾ��ǰҳ��ѡ������鿴���࣬�������ѯ��һҳ��",
+  "candidates": [],
+  "disclaimer": "�������ṩ�����ݽ����ο���������Ͷ�ʽ��飬Ͷ���з��գ������������"
+}

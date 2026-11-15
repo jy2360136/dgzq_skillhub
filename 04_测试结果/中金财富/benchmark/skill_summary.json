@@ -1,0 +1,103 @@
+{
+  "total_cases": 350,
+  "status_counts": {
+    "equivalent": 175,
+    "condition_rejected": 62,
+    "partial": 91,
+    "mx_empty": 7,
+    "unsupported": 15
+  },
+  "manual_override": "龙虎榜的 equivalent 原为资讯字段结构命中，正式判断降为仅资讯替代",
+  "skills": [
+    {
+      "skill": "ETF热榜",
+      "cases": 100,
+      "competitor_ok": 100,
+      "equivalent_effective": 35,
+      "partial_effective": 8,
+      "condition_rejected": 57,
+      "mx_empty": 0,
+      "unsupported": 0,
+      "avg_competitor_field_coverage": 0.8138,
+      "avg_mx_field_coverage": 1.0,
+      "avg_code_overlap": 0.6615,
+      "verdict": "有限可替代",
+      "conclusion": "涨幅榜前25题高度一致；跌幅方向部分可做；资金榜、特色榜、热搜榜和大量多字段组合被条件拒绝。"
+    },
+    {
+      "skill": "基金产品",
+      "cases": 50,
+      "competitor_ok": 50,
+      "equivalent_effective": 1,
+      "partial_effective": 27,
+      "condition_rejected": 0,
+      "mx_empty": 7,
+      "unsupported": 15,
+      "avg_competitor_field_coverage": 0.9393,
+      "avg_mx_field_coverage": 0.3787,
+      "avg_code_overlap": 0.2922,
+      "verdict": "低可替代",
+      "conclusion": "基金搜索和部分档案字段可用；费率、持仓、分红、业绩和多基金对比需要按字段拆分，覆盖不稳定。"
+    },
+    {
+      "skill": "热榜资讯",
+      "cases": 50,
+      "competitor_ok": 50,
+      "equivalent_effective": 50,
+      "partial_effective": 0,
+      "condition_rejected": 0,
+      "mx_empty": 0,
+      "unsupported": 0,
+      "avg_competitor_field_coverage": 0.85,
+      "avg_mx_field_coverage": 1.0,
+      "avg_code_overlap": null,
+      "verdict": "结构可替代",
+      "conclusion": "标题、来源、时间和摘要可返回，但新闻来源与排序不可能完全一致；应按资讯摘要而非结构化榜单承诺。"
+    },
+    {
+      "skill": "行情数据",
+      "cases": 50,
+      "competitor_ok": 50,
+      "equivalent_effective": 35,
+      "partial_effective": 10,
+      "condition_rejected": 5,
+      "mx_empty": 0,
+      "unsupported": 0,
+      "avg_competitor_field_coverage": 0.57,
+      "avg_mx_field_coverage": 0.8467,
+      "avg_code_overlap": 1.0,
+      "verdict": "高可替代",
+      "conclusion": "行情快照、历史行情、板块关联和榜单主体可复刻；资金流多字段需拆成多次调用。"
+    },
+    {
+      "skill": "财务数据",
+      "cases": 50,
+      "competitor_ok": 50,
+      "equivalent_effective": 44,
+      "partial_effective": 6,
+      "condition_rejected": 0,
+      "mx_empty": 0,
+      "unsupported": 0,
+      "avg_competitor_field_coverage": 0.65,
+      "avg_mx_field_coverage": 0.956,
+      "avg_code_overlap": 1.0,
+      "verdict": "高可替代",
+      "conclusion": "主要指标、利润表、现金流和资产负债表的多数字段可复刻；跨表多字段建议固定调用顺序。"
+    },
+    {
+      "skill": "龙虎榜",
+      "cases": 50,
+      "competitor_ok": 50,
+      "equivalent_effective": 0,
+      "partial_effective": 50,
+      "condition_rejected": 0,
+      "mx_empty": 0,
+      "unsupported": 0,
+      "avg_competitor_field_coverage": 0.9,
+      "avg_mx_field_coverage": 0.9267,
+      "avg_code_overlap": 0.0,
+      "verdict": "仅资讯替代",
+      "conclusion": "妙想能检索到龙虎榜新闻，但没有中金财富式结构化榜单和席位明细；不能作为等价替代。"
+    }
+  ]
+}

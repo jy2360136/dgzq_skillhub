@@ -1,0 +1,63 @@
+{
+  "tab": "price",
+  "tab_name": "���ǵ�",
+  "rank": "today",
+  "rank_name": "�����ǵ���",
+  "sub_tab": 12,
+  "set_domain": 11005,
+  "col_type": 14,
+  "sort_type": 1,
+  "limit": 3,
+  "start": 0,
+  "total": 1777,
+  "items": [
+    {
+      "code": "589200",
+      "market": "1",
+      "name": "�ƴ�200ETF����",
+      "previous_close": 1.148,
+      "now": 1.194,
+      "amount": 3420963,
+      "total_market_value": 48365356,
+      "xsflag": "3",
+      "zaf_20d": 2.14,
+      "thisyear": 2.23,
+      "MISCFLAG": 0,
+      "vega_60d": -13.1,
+      "rho_5d": 7.86,
+      "premium_rate": 8.15
+    },
+    {
+      "code": "513350",
+      "market": "1",
+      "name": "��������ETF����",
+      "previous_close": 1.298,
+      "now": 1.338,
+      "amount": 2098845952,
+      "total_market_value": 1191818240,
+      "xsflag": "3",
+      "zaf_20d": -4.02,
+      "thisyear": 42.8,
+      "MISCFLAG": 0,
+      "vega_60d": 5.27,
+      "rho_5d": 6.11,
+      "premium_rate": 3.97
+    },
+    {
+      "code": "159518",
+      "market": "0",
+      "name": "��������ETF��ʵ",
+      "previous_close": 1.246,
+      "now": 1.282,
+      "amount": 1627568128,
+      "total_market_value": 2179816960,
+      "xsflag": "3",
+      "zaf_20d": -2.58,
+      "thisyear": 43.56,
+      "MISCFLAG": 0,
+      "vega_60d": 6.48,
+      "rho_5d": 7.46,
+      "premium_rate": 4.49
+    }
+  ]
+}

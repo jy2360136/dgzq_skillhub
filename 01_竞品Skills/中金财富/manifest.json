@@ -1,0 +1,177 @@
+{
+  "generated_at": "2026-11-15",
+  "source": "中金财富 AI Skill 广场",
+  "site": "https://web.ciccwm.com/zzt/app/skills-center/#/",
+  "credentials": "只保存在本机用户环境与 ~/.config/ciccwm/config.json，不进入仓库",
+  "skill_count": 6,
+  "skills": [
+    {
+      "skill_id": "ciccwm-etf-ranking-analysis",
+      "display_name": "ETF热榜",
+      "download_url": "https://cdnweb.ciccwm.com/zzt/static/skills/ciccwm-etf-ranking-analysis.zip",
+      "zip": {
+        "path": "01_竞品Skills/中金财富/packages/ciccwm-etf-ranking-analysis.zip",
+        "bytes": 13139,
+        "sha256": "b7c3ed20908f83413f302afa115ca699cf7b6728f5bef1b217cb2c0a250ace51"
+      },
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-etf-ranking-analysis/ciccwm-etf-ranking-analysis",
+      "files": [
+        {
+          "path": "scripts/etf_ranking_query.py",
+          "bytes": 24336,
+          "sha256": "91f2275411068d074af4fd45401bd43ff7345840577c46ed822cf5c97e4556ef"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 12274,
+          "sha256": "8d6b00123c49057d911e3099a9886b8e843cb2bf121b9ccd266542abfe176b71"
+        }
+      ],
+      "auth": {
+        "config_path": "~/.config/ciccwm/config.json",
+        "field": "CICCWM_API_KEY",
+        "user_env": "CICCWM_API_KEY"
+      }
+    },
+    {
+      "skill_id": "ciccwm-fund-product-info",
+      "display_name": "基金产品信息",
+      "download_url": "https://cdnweb.ciccwm.com/zzt/static/skills/ciccwm-fund-product-info.zip",
+      "zip": {
+        "path": "01_竞品Skills/中金财富/packages/ciccwm-fund-product-info.zip",
+        "bytes": 12961,
+        "sha256": "80c167514891b7dffd2b731183a1402e0f68fd61e623caed40b7b70ee562d3cb"
+      },
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-fund-product-info/ciccwm-fund-product-info",
+      "files": [
+        {
+          "path": "scripts/fund_product_query.py",
+          "bytes": 39230,
+          "sha256": "ce6d04063ac894f94be01cae64a25b6b57a2ac85c22f63c87df047c8f469c05a"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 6033,
+          "sha256": "10bed9fa528cb2e9da05616174614a01f0f2248433e0b2d20d1356be668b9a78"
+        }
+      ],
+      "auth": {
+        "config_path": "~/.config/ciccwm/config.json",
+        "field": "CICCWM_API_KEY",
+        "user_env": "CICCWM_API_KEY"
+      }
+    },
+    {
+      "skill_id": "ciccwm-hot-news-analysis",
+      "display_name": "热榜资讯",
+      "download_url": "https://cdnweb.ciccwm.com/zzt/static/skills/ciccwm-hot-news-analysis.zip",
+      "zip": {
+        "path": "01_竞品Skills/中金财富/packages/ciccwm-hot-news-analysis.zip",
+        "bytes": 7109,
+        "sha256": "434c14967e05cb77da73dc42bbb0a62535f2f02fe3d3dd303aaa2045dc295617"
+      },
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-hot-news-analysis/ciccwm-hot-news-analysis",
+      "files": [
+        {
+          "path": "scripts/get_data.py",
+          "bytes": 11674,
+          "sha256": "4ae3d51f69b57d0f974340f27341bfb23cace6a92e0694d4a991fe2247aa14f8"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 5012,
+          "sha256": "c27ba17baced168b9b1802df2521a51e399339542c0a5b9ddc895463e7227584"
+        }
+      ],
+      "auth": {
+        "config_path": "~/.config/ciccwm/config.json",
+        "field": "CICCWM_API_KEY",
+        "user_env": "CICCWM_API_KEY"
+      }
+    },
+    {
+      "skill_id": "ciccwm-market-analysis",
+      "display_name": "行情数据",
+      "download_url": "https://cdnweb.ciccwm.com/zzt/static/skills/ciccwm-market-analysis.zip",
+      "zip": {
+        "path": "01_竞品Skills/中金财富/packages/ciccwm-market-analysis.zip",
+        "bytes": 9533,
+        "sha256": "bd524e4e8cbcff01406bb5e7659c813cfd9b706590c3db246a3654db8164f97c"
+      },
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-market-analysis/ciccwm-market-analysis",
+      "files": [
+        {
+          "path": "scripts/market_query.py",
+          "bytes": 15967,
+          "sha256": "70ae2cbebdfddd1cb96e6477139340dede29aa73af5806dff0655866832d7542"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 8175,
+          "sha256": "f2e1cf30325de6f580c0eb0a52c9c1f0fc28dc87db348df254be6478b43f6686"
+        }
+      ],
+      "auth": {
+        "config_path": "~/.config/ciccwm/config.json",
+        "field": "CICCWM_API_KEY",
+        "user_env": "CICCWM_API_KEY"
+      }
+    },
+    {
+      "skill_id": "ciccwm-stock-finance-analysis",
+      "display_name": "财务数据",
+      "download_url": "https://cdnweb.ciccwm.com/zzt/static/skills/ciccwm-stock-finance-analysis.zip",
+      "zip": {
+        "path": "01_竞品Skills/中金财富/packages/ciccwm-stock-finance-analysis.zip",
+        "bytes": 7922,
+        "sha256": "cc96ad2f358b02b5e72bbf037a983524486bc08f9a24019fafe1d1f26e30cf16"
+      },
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-stock-finance-analysis/ciccwm-stock-finance-analysis",
+      "files": [
+        {
+          "path": "scripts/finance_query.py",
+          "bytes": 10173,
+          "sha256": "47ecca2fb9265d6ce0f4f988a9fc48d630b255f696ab34e71ec3b663c89d3077"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 7858,
+          "sha256": "92df9fdc8b2b48d5f769c6c23de263c4482c1cdbd5624a36a3f5a447941bd900"
+        }
+      ],
+      "auth": {
+        "config_path": "~/.config/ciccwm/config.json",
+        "field": "CICCWM_API_KEY",
+        "user_env": "CICCWM_API_KEY"
+      }
+    },
+    {
+      "skill_id": "ciccwm-tiger-list-analysis",
+      "display_name": "龙虎榜",
+      "download_url": "https://cdnweb.ciccwm.com/zzt/static/skills/ciccwm-tiger-list-analysis.zip",
+      "zip": {
+        "path": "01_竞品Skills/中金财富/packages/ciccwm-tiger-list-analysis.zip",
+        "bytes": 9601,
+        "sha256": "7f39bd2e22a12228a9bf584260eb3fc8dd2dc9188bd43cc6ebe8686515346278"
+      },
+      "extracted": "01_竞品Skills/中金财富/extracted/ciccwm-tiger-list-analysis/ciccwm-tiger-list-analysis",
+      "files": [
+        {
+          "path": "scripts/tiger_list_query.py",
+          "bytes": 16745,
+          "sha256": "a0c3927b573c478a7b09c663df3d445353c696aa504be95ca8b2e8562d19a621"
+        },
+        {
+          "path": "SKILL.md",
+          "bytes": 9970,
+          "sha256": "9ffa01631411035abee96c64e28f78cc5434875a1e413e7ab6b35cf079cb79f2"
+        }
+      ],
+      "auth": {
+        "config_path": "~/.config/ciccwm/config.json",
+        "field": "CICCWM_API_KEY",
+        "user_env": "CICCWM_API_KEY"
+      }
+    }
+  ]
+}

@@ -5,6 +5,7 @@
 - `广发证券/`：广发 Skill 原始 JSON、stderr、Final Answer。
 - `东方财富妙想/`：妙想 MCP 工具列表、冒烟测试、估值和 ETF 验证原始响应。
 - `中信建投-WorkBuddy/`：官方 Key 真调后的原始响应、Final Answer、成功截图和测试清单。
+- `中金财富/`：6 个 Skill 的 350 题双方原始响应、逐题摘要和 Skill 汇总。
 - `benchmarks/`：ETF 200 问全量执行和统计。
 - `测试有效性审计-20261115.md`：哪些旧结论可靠、哪些只是局部判断。
 
