@@ -1,0 +1,165 @@
+{
+  "total_cases": 700,
+  "overall_status": {
+    "success": 495,
+    "empty": 4,
+    "error": 51,
+    "quota_limited": 150
+  },
+  "skills": [
+    {
+      "institution": "国信证券",
+      "skill": "ETF筛选",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 50,
+      "cases_with_results": 48
+    },
+    {
+      "institution": "国信证券",
+      "skill": "基金对比",
+      "cases": 50,
+      "success": 0,
+      "empty": 0,
+      "error": 50,
+      "quota_limited": 0,
+      "cases_with_artifacts": 3,
+      "cases_with_results": 3
+    },
+    {
+      "institution": "国信证券",
+      "skill": "宏观经济数据",
+      "cases": 50,
+      "success": 49,
+      "empty": 0,
+      "error": 1,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 0
+    },
+    {
+      "institution": "国信证券",
+      "skill": "智能选股",
+      "cases": 50,
+      "success": 0,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 50,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 0
+    },
+    {
+      "institution": "国信证券",
+      "skill": "行情数据",
+      "cases": 50,
+      "success": 0,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 50,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 50
+    },
+    {
+      "institution": "国信证券",
+      "skill": "财务数据",
+      "cases": 50,
+      "success": 0,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 50,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 50
+    },
+    {
+      "institution": "广发证券",
+      "skill": "ETF榜单",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 50
+    },
+    {
+      "institution": "广发证券",
+      "skill": "ETF筛选",
+      "cases": 50,
+      "success": 46,
+      "empty": 4,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 46
+    },
+    {
+      "institution": "广发证券",
+      "skill": "ETF资金异动",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 50
+    },
+    {
+      "institution": "广发证券",
+      "skill": "基金定投",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 0
+    },
+    {
+      "institution": "广发证券",
+      "skill": "基金详情",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 0
+    },
+    {
+      "institution": "广发证券",
+      "skill": "股票F10",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 0
+    },
+    {
+      "institution": "广发证券",
+      "skill": "股票估值",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 50
+    },
+    {
+      "institution": "广发证券",
+      "skill": "龙虎榜",
+      "cases": 50,
+      "success": 50,
+      "empty": 0,
+      "error": 0,
+      "quota_limited": 0,
+      "cases_with_artifacts": 0,
+      "cases_with_results": 50
+    }
+  ]
+}

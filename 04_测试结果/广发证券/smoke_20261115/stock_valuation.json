@@ -1,0 +1,36 @@
+[
+  {
+    "basic": {
+      "list_date": "2001-08-27",
+      "total_marketcap": 17941.92
+    },
+    "stock_code": "SH600519",
+    "stock_name": "����ę́",
+    "valuation": {
+      "pb": 6.6156,
+      "pb_avg": 3.0605,
+      "pb_percent": 33.93,
+      "pettm": 21.8376,
+      "pettm_avg": 70.8109,
+      "pettm_percent": 31.51,
+      "trade_date": "2026-11-13"
+    }
+  },
+  {
+    "basic": {
+      "list_date": "1991-04-03",
+      "total_marketcap": 2342.29
+    },
+    "stock_code": "SZ000001",
+    "stock_name": "ƽ������",
+    "valuation": {
+      "pb": 0.4914,
+      "pb_avg": 0.6181,
+      "pb_percent": 3.61,
+      "pettm": 5.3871,
+      "pettm_avg": 6.4908,
+      "pettm_percent": 10.7,
+      "trade_date": "2026-11-13"
+    }
+  }
+]

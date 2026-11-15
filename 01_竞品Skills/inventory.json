@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15",
+  "generated_at": "2026-11-16",
   "repository": "https://github.com/jy2360136/dgzq_skillhub",
   "skills": [
     {
@@ -8,9 +8,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-etf-rank_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-etf-rank",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -18,9 +18,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-etf-search_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-etf-search",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -28,9 +28,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-etf-super-fund_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-etf-super-fund",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -38,9 +38,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-fund-detail_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-fund-detail",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -48,9 +48,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-fund-invest_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-fund-invest",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -58,9 +58,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-lhb-list_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-lhb-list",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -68,9 +68,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-stock-f10_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-stock-f10",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "广发证券",
@@ -78,9 +78,9 @@
       "archive": "01_竞品Skills/广发证券/packages/gf-stock-valuation_v0.0.3_ytjskills.zip",
       "extracted": "01_竞品Skills/广发证券/extracted/gf-stock-valuation",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
+      "status": "downloaded_extracted_and_benchmarked",
       "executed": true,
-      "evidence": "04_测试结果/广发证券/raw/"
+      "evidence": "04_测试结果/广发证券/raw/; 04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "国信证券",
@@ -88,9 +88,9 @@
       "archive": "01_竞品Skills/国信证券/packages/gs-economy-query.zip",
       "extracted": "01_竞品Skills/国信证券/extracted/gs-economy-query",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
-      "executed": false,
-      "evidence": "01_竞品Skills/国信证券/manifest.json"
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "国信证券",
@@ -98,9 +98,9 @@
       "archive": "01_竞品Skills/国信证券/packages/gs-etf-filter.zip",
       "extracted": "01_竞品Skills/国信证券/extracted/gs-etf-filter",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
-      "executed": false,
-      "evidence": "01_竞品Skills/国信证券/manifest.json"
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "国信证券",
@@ -108,9 +108,9 @@
       "archive": "01_竞品Skills/国信证券/packages/gs-fund-compare.zip",
       "extracted": "01_竞品Skills/国信证券/extracted/gs-fund-compare",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
-      "executed": false,
-      "evidence": "01_竞品Skills/国信证券/manifest.json"
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "国信证券",
@@ -118,9 +118,9 @@
       "archive": "01_竞品Skills/国信证券/packages/gs-smart-stock-picking.zip",
       "extracted": "01_竞品Skills/国信证券/extracted/gs-smart-stock-picking",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
-      "executed": false,
-      "evidence": "01_竞品Skills/国信证券/manifest.json"
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "国信证券",
@@ -128,9 +128,9 @@
       "archive": "01_竞品Skills/国信证券/packages/gs-stock-financial-query.zip",
       "extracted": "01_竞品Skills/国信证券/extracted/gs-stock-financial-query",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
-      "executed": false,
-      "evidence": "01_竞品Skills/国信证券/manifest.json"
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "国信证券",
@@ -138,9 +138,9 @@
       "archive": "01_竞品Skills/国信证券/packages/gs-stock-market-query.zip",
       "extracted": "01_竞品Skills/国信证券/extracted/gs-stock-market-query",
       "stored_in_repository": true,
-      "status": "downloaded_and_extracted",
-      "executed": false,
-      "evidence": "01_竞品Skills/国信证券/manifest.json"
+      "status": "downloaded_extracted_and_benchmarked",
+      "executed": true,
+      "evidence": "04_测试结果/广发国信联合benchmark/"
     },
     {
       "institution": "中信建投-官网",

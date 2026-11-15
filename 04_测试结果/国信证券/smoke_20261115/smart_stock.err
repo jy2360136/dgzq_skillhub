@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "D:\����skill�㳡����\01_��ƷSkills\����֤ȯ\extracted\gs-smart-stock-picking\scripts\gs_stock_picking.py", line 133, in <module>
+    main()
+  File "D:\����skill�㳡����\01_��ƷSkills\����֤ȯ\extracted\gs-smart-stock-picking\scripts\gs_stock_picking.py", line 128, in main
+    result = smart_stock_picking(args.searchstring, args.searchtype, args.api_key)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\����skill�㳡����\01_��ƷSkills\����֤ȯ\extracted\gs-smart-stock-picking\scripts\gs_stock_picking.py", line 34, in smart_stock_picking
+    ctx.options |= ssl.OP_LEGACY_SERVER_CONNECT  # �ؼ������þɰ� SSL ����Э��
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'ssl' has no attribute 'OP_LEGACY_SERVER_CONNECT'
