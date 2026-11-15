@@ -5,7 +5,7 @@
   "skill_count": 8,
   "file_count": 47,
   "total_bytes": 1012344.0,
-  "runtime_status": "Installed; execution blocked because CSC_API_KEY is not injected",
+  "runtime_status": "Installed and successfully called in WorkBuddy 5.11.3",
   "files": [
     {
       "directory": "csc-etf-selection",
@@ -430,5 +430,16 @@
       "version": "1.0.0",
       "skill_id": "skill_2111997580993359872"
     }
-  ]
+  ],
+  "runtime_validation": {
+    "date": "2026-11-15",
+    "skill": "csc-etf-selection",
+    "case": "沪深300指数估值",
+    "http_status": [
+      200,
+      200,
+      200
+    ],
+    "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+  }
 }

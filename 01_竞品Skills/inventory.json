@@ -1,0 +1,306 @@
+{
+  "generated_at": "2026-11-15",
+  "repository": "https://github.com/jy2360136/dgzq_skillhub",
+  "skills": [
+    {
+      "institution": "广发证券",
+      "skill": "gf-etf-rank",
+      "archive": "01_竞品Skills/广发证券/packages/gf-etf-rank_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-etf-rank",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-etf-search",
+      "archive": "01_竞品Skills/广发证券/packages/gf-etf-search_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-etf-search",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-etf-super-fund",
+      "archive": "01_竞品Skills/广发证券/packages/gf-etf-super-fund_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-etf-super-fund",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-fund-detail",
+      "archive": "01_竞品Skills/广发证券/packages/gf-fund-detail_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-fund-detail",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-fund-invest",
+      "archive": "01_竞品Skills/广发证券/packages/gf-fund-invest_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-fund-invest",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-lhb-list",
+      "archive": "01_竞品Skills/广发证券/packages/gf-lhb-list_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-lhb-list",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-stock-f10",
+      "archive": "01_竞品Skills/广发证券/packages/gf-stock-f10_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-stock-f10",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "广发证券",
+      "skill": "gf-stock-valuation",
+      "archive": "01_竞品Skills/广发证券/packages/gf-stock-valuation_v0.0.3_ytjskills.zip",
+      "extracted": "01_竞品Skills/广发证券/extracted/gf-stock-valuation",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": true,
+      "evidence": "04_测试结果/广发证券/raw/"
+    },
+    {
+      "institution": "国信证券",
+      "skill": "gs-economy-query",
+      "archive": "01_竞品Skills/国信证券/packages/gs-economy-query.zip",
+      "extracted": "01_竞品Skills/国信证券/extracted/gs-economy-query",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": false,
+      "evidence": "01_竞品Skills/国信证券/manifest.json"
+    },
+    {
+      "institution": "国信证券",
+      "skill": "gs-etf-filter",
+      "archive": "01_竞品Skills/国信证券/packages/gs-etf-filter.zip",
+      "extracted": "01_竞品Skills/国信证券/extracted/gs-etf-filter",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": false,
+      "evidence": "01_竞品Skills/国信证券/manifest.json"
+    },
+    {
+      "institution": "国信证券",
+      "skill": "gs-fund-compare",
+      "archive": "01_竞品Skills/国信证券/packages/gs-fund-compare.zip",
+      "extracted": "01_竞品Skills/国信证券/extracted/gs-fund-compare",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": false,
+      "evidence": "01_竞品Skills/国信证券/manifest.json"
+    },
+    {
+      "institution": "国信证券",
+      "skill": "gs-smart-stock-picking",
+      "archive": "01_竞品Skills/国信证券/packages/gs-smart-stock-picking.zip",
+      "extracted": "01_竞品Skills/国信证券/extracted/gs-smart-stock-picking",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": false,
+      "evidence": "01_竞品Skills/国信证券/manifest.json"
+    },
+    {
+      "institution": "国信证券",
+      "skill": "gs-stock-financial-query",
+      "archive": "01_竞品Skills/国信证券/packages/gs-stock-financial-query.zip",
+      "extracted": "01_竞品Skills/国信证券/extracted/gs-stock-financial-query",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": false,
+      "evidence": "01_竞品Skills/国信证券/manifest.json"
+    },
+    {
+      "institution": "国信证券",
+      "skill": "gs-stock-market-query",
+      "archive": "01_竞品Skills/国信证券/packages/gs-stock-market-query.zip",
+      "extracted": "01_竞品Skills/国信证券/extracted/gs-stock-market-query",
+      "stored_in_repository": true,
+      "status": "downloaded_and_extracted",
+      "executed": false,
+      "evidence": "01_竞品Skills/国信证券/manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-etf-index-analysis",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-etf-index-analysis.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-etf-index-analysis",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": true,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-fund-product-info-query",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-fund-product-info-query.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-fund-product-info-query",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-listed-company-profile-industry-compare",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-listed-company-profile-industry-compare.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-listed-company-profile-industry-compare",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-macro-analysis",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-macro-analysis.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-macro-analysis",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-pankou",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-pankou.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-pankou",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-stock-analysis",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-stock-analysis.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-stock-analysis",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "csc-stock-financial-query",
+      "archive": "01_竞品Skills/中信建投-官网/packages/csc-stock-financial-query.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/csc-stock-financial-query",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-官网",
+      "skill": "stock-pick",
+      "archive": "01_竞品Skills/中信建投-官网/packages/stock-pick.zip",
+      "extracted": "01_竞品Skills/中信建投-官网/extracted/stock-pick",
+      "stored_in_repository": true,
+      "status": "official_package_downloaded",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "ETF 筛选 Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-etf-selection",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": true,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "基金研判 Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-fund-analysis-info-query",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "个股研判 Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-listed-company-profile-industry-compare",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "大盘分析Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-macro-analysis",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "盘口异动 Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-pankou",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "个股综合分析 Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-stock-analysis",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "财报透视 Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-stock-financial-report-insights",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    },
+    {
+      "institution": "中信建投-WorkBuddy",
+      "skill": "智能选股Skill-中信建投",
+      "archive": null,
+      "extracted": "01_竞品Skills/中信建投-WorkBuddy/installed/csc-stock-pick",
+      "stored_in_repository": true,
+      "status": "installed_snapshot",
+      "executed": false,
+      "evidence": "04_测试结果/中信建投-WorkBuddy/test_manifest.json"
+    }
+  ]
+}
